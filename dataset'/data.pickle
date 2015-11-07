@@ -1,0 +1,128 @@
+(lp1
+(dp2
+S'organisation'
+p3
+VMaryville High School
+p4
+sS'name'
+p5
+VHarry Brooks
+p6
+sS'value'
+p7
+I1
+sS'sentence'
+p8
+VHarry Brooks graduated from Maryville High School, competed his undergraduate work as a Speech and Communication major at Carson Newman College, and got his graduate degree from the University of Tennessee, Knoxville.
+p9
+sa(dp10
+g3
+VAbbotsholme School
+p11
+sg5
+VOlaf Stapledon
+p12
+sg7
+I1
+sg8
+VOlaf Stapledon was educated at Abbotsholme School and Balliol College, Oxford, where Olaf Stapledon acquired a BA in Modern History in 1909 and a MA in 1913.
+p13
+sa(dp14
+g3
+VRussian Academy of Theatre Arts
+p15
+sg5
+VDmitri Tcherniakov
+p16
+sg7
+I1
+sg8
+VIn 1993 Dmitri Tcherniakov graduated from Russian Academy of Theatre Arts as stage director.
+p17
+sa(dp18
+g3
+VThe Albany Academy
+p19
+sg5
+VRufus Wheeler Peckham
+p20
+sg7
+I1
+sg8
+VFollowing his graduation from The Albany Academy, Rufus Wheeler Peckham followed in his father's footsteps as a lawyer, being admitted to the bar in Albany in 1859 after teaching himself law by studying in his father's office.
+p21
+sa(dp22
+g3
+VCalifornia State University, Long Beach
+p23
+sg5
+VMelinda Tankard Reist
+p24
+sg7
+I1
+sg8
+VAs a recipient of a Rotary Foundation Scholarship, Melinda Tankard Reist studied journalism at California State University Long Beach in 1987-1988.
+p25
+sa(dp26
+g3
+VUniversity of Miami
+p27
+sg5
+VAlgis Budrys
+p28
+sg7
+I1
+sg8
+VBudrys was educated at the University of Miami, and later at Columbia University in New York.
+p29
+sa(dp30
+g3
+VUniversity of Kansas
+p31
+sg5
+VJannik Lindbæk
+p32
+sg7
+I1
+sg8
+VJannik Lindbæk later received a Fulbright scholarship to continue his business studies for one year at the University of Kansas.
+p33
+sag30
+a(dp34
+g3
+VUniversity of Oxford
+p35
+sg5
+VAlfred Merle Norman
+p36
+sg7
+I1
+sg8
+Vfrom the University of Oxford in 1859.
+p37
+sa(dp38
+g3
+VMassachusetts Institute of Technology
+p39
+sg5
+VHou Debang
+p40
+sg7
+I1
+sg8
+VHou Debang obtained his master's degree in chemical engineering at Massachusetts Institute of Technology, and later obtained his doctoral degree at Columbia University.
+p41
+sa(dp42
+g3
+VUniversity of Cambridge
+p43
+sg5
+VRalph Tatham
+p44
+sg7
+I1
+sg8
+VRalph Tatham graduated at the University of Cambridge in 1803.
+p45
+sag42
+a.

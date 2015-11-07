@@ -1,0 +1,3525 @@
+data_preprocess has been done
+(S
+  (NODE1
+    Charles Mantoux/NNP
+    graduated/VBD
+    from/IN
+    the/DT
+    University/NNP)
+  of/IN
+  Paris/NNP
+  where/WRB
+  (NODE1 Charles Mantoux/NNP studied/VBD under/IN Broca/NNP))
+(S
+  (NODE1
+    Charles Mantoux/NNP
+    graduated/VBD
+    from/IN
+    the/DT
+    University/NNP)
+  of/IN
+  Paris/NNP
+  where/WRB
+  (NODE1 Charles Mantoux/NNP studied/VBD under/IN Broca/NNP))
+(S
+  (NODE1
+    Harry Brooks/NNP
+    graduated/VBD
+    from/IN
+    Maryville High School/NNP)
+  competed/VBD
+  his/PRP$
+  (NODE1 undergraduate work/NN as/IN a/DT Speech/NNP)
+  and/CC
+  Communication/NNP
+  major/JJ
+  at/IN
+  Carson Newman College/NNP
+  and/CC
+  got/VBD
+  his/PRP$
+  (NODE1 graduate degree/NN from/IN the/DT University/NNP)
+  of/IN
+  Tennessee Knoxville/NNP)
+(S
+  (NODE1
+    Harry Brooks/NNP
+    graduated/VBD
+    from/IN
+    Maryville High School/NNP)
+  competed/VBD
+  his/PRP$
+  undergraduate work/NN
+  as/IN
+  a/DT
+  Speech/NNP
+  and/CC
+  Communication/NNP
+  major/JJ
+  at/IN
+  Carson Newman College/NNP
+  and/CC
+  got/VBD
+  his/PRP$
+  graduate degree/NN
+  from/IN
+  the/DT
+  University/NNP
+  of/IN
+  Tennessee Knoxville/NNP)
+(S
+  (NODE1
+    Olaf Stapledon/NNP
+    was educated/VBN
+    at/IN
+    Abbotsholme School/NNP)
+  and/CC
+  Balliol College Oxford/NNP
+  where/WRB
+  Olaf Stapledon/NNP
+  acquired/VBD
+  a/DT
+  (NODE1 BA/NNP in/IN Modern History/NNP)
+  in/IN
+  1909/CD
+  and/CC
+  a/DT
+  MA/NNP
+  in/IN
+  1913/CD)
+(S
+  Olaf Stapledon/NNP
+  was educated/VBN
+  at/IN
+  Abbotsholme School/NNP
+  and/CC
+  Balliol College Oxford/NNP
+  where/WRB
+  (NODE1 Olaf Stapledon/NNP acquired/VBD a/DT BA/NNP)
+  in/IN
+  Modern History/NNP
+  in/IN
+  1909/CD
+  and/CC
+  a/DT
+  MA/NNP
+  in/IN
+  1913/CD)
+(S
+  In/IN
+  1993/CD
+  (NODE1
+    Dmitri Tcherniakov/NNP
+    graduated/VBD
+    from/IN
+    Russian Academy/NNP)
+  of/IN
+  (NODE1 Theatre Arts/NNP as/IN stage director/NN))
+(S
+  In/IN
+  1993/CD
+  (NODE1
+    Dmitri Tcherniakov/NNP
+    graduated/VBD
+    from/IN
+    Russian Academy/NNP)
+  of/IN
+  Theatre Arts/NNP
+  as/IN
+  stage director/NN)
+(S
+  Following/VBG
+  his/PRP$
+  (NODE1
+    graduation/NN
+    from/IN
+    The/DT
+    Albany Academy Rufus Wheeler Peckham/NNP)
+  followed/VBD
+  in/IN
+  his/PRP$
+  (NODE1 father s footsteps/NNS as/IN a/DT lawyer/NN)
+  being/VBG
+  admitted/VBN
+  to/TO
+  the/DT
+  (NODE1 bar/NN in/IN Albany/NNP)
+  in/IN
+  1859/CD
+  after/IN
+  teaching/NN
+  himself/PRP
+  law/NN
+  by/IN
+  studying/VBG
+  in/IN
+  his/PRP$
+  father s office/NN)
+(S
+  Following/VBG
+  his/PRP$
+  graduation/NN
+  from/IN
+  The/DT
+  Albany Academy Rufus Wheeler Peckham/NNP
+  followed/VBD
+  in/IN
+  his/PRP$
+  father s footsteps/NNS
+  as/IN
+  a/DT
+  lawyer/NN
+  being/VBG
+  admitted/VBN
+  to/TO
+  the/DT
+  bar/NN
+  in/IN
+  Albany/NNP
+  in/IN
+  1859/CD
+  after/IN
+  teaching/NN
+  himself/PRP
+  law/NN
+  by/IN
+  studying/VBG
+  in/IN
+  his/PRP$
+  father s office/NN)
+(S
+  As/IN
+  a/DT
+  recipient/JJ
+  of/IN
+  a/DT
+  Rotary Foundation Scholarship Melinda Tankard Reist/NNP
+  studied/VBD
+  (NODE1
+    journalism/NN
+    at/IN
+    California State University Long Beach/NNP)
+  in/IN
+  1987 1988/CD)
+(S
+  As/IN
+  a/DT
+  recipient/JJ
+  of/IN
+  a/DT
+  (NODE1
+    Rotary Foundation Scholarship Melinda Tankard Reist/NNP
+    studied/VBD
+    journalism/NN)
+  at/IN
+  California State University Long Beach/NNP
+  in/IN
+  1987 1988/CD)
+(S
+  (NODE1 Budrys/NNS was educated/VBN at/IN the/DT University/NNP)
+  of/IN
+  Miami/NNP
+  and/CC
+  later/JJ
+  at/IN
+  (NODE1 Columbia University/NNP in/IN New York/NNP))
+(S
+  Budrys/NNS
+  was educated/VBN
+  at/IN
+  the/DT
+  University/NNP
+  of/IN
+  Miami/NNP
+  and/CC
+  later/JJ
+  at/IN
+  Columbia University/NNP
+  in/IN
+  New York/NNP)
+(S
+  from/IN
+  the/DT
+  (NODE1 University/NNP of/IN Oxford/NNP)
+  in/IN
+  1859/CD)
+(S from/IN the/DT University/NNP of/IN Oxford/NNP in/IN 1859/CD)
+(S
+  Hou Debang/NNP
+  obtained/VBD
+  his/PRP$
+  master s/NNS
+  degree/VBP
+  in/IN
+  chemical/JJ
+  (NODE1 engineering/NN at/IN Massachusetts Institute/NNP)
+  of/IN
+  Technology/NNP
+  and/CC
+  later/JJ
+  obtained/VBD
+  his/PRP$
+  doctoral/JJ
+  (NODE1 degree/NN at/IN Columbia University/NNP))
+(S
+  Hou Debang/NNP
+  obtained/VBD
+  his/PRP$
+  master s/NNS
+  degree/VBP
+  in/IN
+  chemical/JJ
+  engineering/NN
+  at/IN
+  Massachusetts Institute/NNP
+  of/IN
+  Technology/NNP
+  and/CC
+  later/JJ
+  obtained/VBD
+  his/PRP$
+  doctoral/JJ
+  degree/NN
+  at/IN
+  Columbia University/NNP)
+(S
+  (NODE1 Ralph Tatham/NNP graduated/VBD at/IN the/DT University/NNP)
+  of/IN
+  Cambridge/NNP
+  in/IN
+  1803/CD)
+(S
+  (NODE1 Ralph Tatham/NNP graduated/VBD at/IN the/DT University/NNP)
+  of/IN
+  Cambridge/NNP
+  in/IN
+  1803/CD)
+(S
+  Davis/NNP
+  received/VBD
+  his/PRP$
+  (NODE1 Bachelor/NNP of/IN Music/NNP)
+  in/IN
+  1952/CD
+  from/IN
+  (NODE1 University/NNP of/IN North Texas College/NNP)
+  of/IN
+  Music/NNP
+  and/CC
+  an/DT
+  Artist/NNP
+  s/VBZ
+  (NODE1 Diploma/NNP as/IN a/DT Fulbright Scholar/NNP)
+  from/IN
+  the/DT
+  (NODE1 Santa Cecilia Academy/NNP in/IN Rome/NNP))
+(S
+  Davis/NNP
+  received/VBD
+  his/PRP$
+  Bachelor/NNP
+  of/IN
+  Music/NNP
+  in/IN
+  1952/CD
+  from/IN
+  University/NNP
+  of/IN
+  North Texas College/NNP
+  of/IN
+  Music/NNP
+  and/CC
+  an/DT
+  (NODE1 Artist/NNP s/VBZ Diploma/NNP)
+  as/IN
+  a/DT
+  Fulbright Scholar/NNP
+  from/IN
+  the/DT
+  Santa Cecilia Academy/NNP
+  in/IN
+  Rome/NNP)
+(S
+  Seishi Kikuchi/NNP
+  was born/VBN
+  and/CC
+  grew/VBD
+  up/RP
+  in/IN
+  Tokyo/NNP)
+(S
+  Seishi Kikuchi/NNP
+  was born/VBN
+  and/CC
+  grew/VBD
+  up/RP
+  in/IN
+  Tokyo/NNP)
+(S
+  Casteel/NNP
+  earned/VBD
+  bachelor s/NNS
+  and/CC
+  (NODE1 master s degrees/NNS from/IN California University Pa/NNP))
+(S
+  Casteel/NNP
+  earned/VBD
+  bachelor s/NNS
+  and/CC
+  master s degrees/NNS
+  from/IN
+  California University Pa/NNP)
+(S
+  Avgust Pirjevec/NNP
+  studied/VBD
+  (NODE1 Slavic philology/NN at/IN the/DT University/NNP)
+  of/IN
+  Vienna/NNP)
+(S
+  (NODE1 Avgust Pirjevec/NNP studied/VBD Slavic philology/NN)
+  at/IN
+  the/DT
+  University/NNP
+  of/IN
+  Vienna/NNP)
+(S
+  (NODE1
+    Rains/NNS
+    graduated/VBD
+    from/IN
+    the/DT
+    United States Military Academy/NNP)
+  at/IN
+  West Point New York/NNP
+  in/IN
+  1827 13th/CD
+  in/IN
+  his/PRP$
+  class/NN)
+(S
+  (NODE1
+    Rains/NNS
+    graduated/VBD
+    from/IN
+    the/DT
+    United States Military Academy/NNP)
+  at/IN
+  West Point New York/NNP
+  in/IN
+  1827 13th/CD
+  in/IN
+  his/PRP$
+  class/NN)
+(S
+  (NODE1
+    James P McGranery/NNP
+    graduated/VBD
+    from/IN
+    Temple University Law School/NNP)
+  in/IN
+  1928/CD)
+(S
+  (NODE1
+    James P McGranery/NNP
+    graduated/VBD
+    from/IN
+    Temple University Law School/NNP)
+  in/IN
+  1928/CD)
+(S
+  Richter/NNP
+  is/VBZ
+  a/DT
+  (NODE1 graduate/NN of/IN Skidmore College/NNP))
+(S
+  (NODE1 Richter/NNP is/VBZ a/DT graduate/NN)
+  of/IN
+  Skidmore College/NNP)
+(S
+  (NODE1
+    Robert C Murphy/NNP
+    graduated/VBD
+    from/IN
+    the/DT
+    University/NNP)
+  of/IN
+  (NODE1 Maryland Law School/NNP with/IN a/DT Juris Doctor/NNP)
+  in/IN
+  1951/CD)
+(S
+  (NODE1
+    Robert C Murphy/NNP
+    graduated/VBD
+    from/IN
+    the/DT
+    University/NNP)
+  of/IN
+  Maryland Law School/NNP
+  with/IN
+  a/DT
+  Juris Doctor/NNP
+  in/IN
+  1951/CD)
+(S
+  North Callahan/NNP
+  later/JJ
+  earned/VBD
+  a/DT
+  master/NN
+  s/VBZ
+  (NODE1 degree/NN from/IN Columbia University/NNP)
+  and/CC
+  a/DT
+  (NODE1 Ph D/NNP from/IN New York University/NNP))
+(S
+  (NODE1 North Callahan/NNP later/JJ earned/VBD a/DT master/NN)
+  s/VBZ
+  degree/NN
+  from/IN
+  Columbia University/NNP
+  and/CC
+  a/DT
+  Ph D/NNP
+  from/IN
+  New York University/NNP)
+(S
+  (NODE1
+    Albert Burstein/NNP
+    graduated/VBD
+    from/IN
+    Henry Snyder High School/NNP)
+  and/CC
+  went/VBD
+  on/IN
+  to/TO
+  receive/JJ
+  his/PRP$
+  undergraduate/JJ
+  (NODE1 degree/NN from/IN Columbia College Columbia University/NNP)
+  and/CC
+  his/PRP$
+  (NODE1 law degree/NN from/IN Columbia Law School/NNP))
+(S
+  (NODE1
+    Albert Burstein/NNP
+    graduated/VBD
+    from/IN
+    Henry Snyder High School/NNP)
+  and/CC
+  went/VBD
+  on/IN
+  to/TO
+  receive/JJ
+  his/PRP$
+  undergraduate/JJ
+  degree/NN
+  from/IN
+  Columbia College Columbia University/NNP
+  and/CC
+  his/PRP$
+  law degree/NN
+  from/IN
+  Columbia Law School/NNP)
+(S
+  (NODE1
+    Walter Erle/NNP
+    matriculated/VBD
+    at/IN
+    Queen s College Oxford/NNP)
+  on/IN
+  22/CD
+  January/NNP
+  1602/CD
+  aged/VBD
+  15/CD)
+(S
+  (NODE1
+    Walter Erle/NNP
+    matriculated/VBD
+    at/IN
+    Queen s College Oxford/NNP)
+  on/IN
+  22/CD
+  January/NNP
+  1602/CD
+  aged/VBD
+  15/CD)
+(S
+  Alan Ewen Donald/NNP
+  attended/VBD
+  Aberdeen Grammar School/NNP
+  and/CC
+  Fettes College Edinburgh/NNP
+  and/CC
+  then/RB
+  Trinity Hall Cambridge/NNP)
+(S
+  (NODE1
+    Alan Ewen Donald/NNP
+    attended/VBD
+    Aberdeen Grammar School/NNP)
+  and/CC
+  Fettes College Edinburgh/NNP
+  and/CC
+  then/RB
+  Trinity Hall Cambridge/NNP)
+(S
+  Ikin/NNP
+  completed/VBD
+  a/DT
+  degree/NN
+  in/IN
+  Business Studies/NNPS
+  at/IN
+  (NODE1 Massey University/NNP before/IN beginning/NN)
+  an/DT
+  architectural/JJ
+  (NODE1 degree/NN at/IN the/DT University/NNP)
+  of/IN
+  Auckland/NNP)
+(S
+  (NODE1 Ikin/NNP completed/VBD a/DT degree/NN)
+  in/IN
+  Business Studies/NNPS
+  at/IN
+  Massey University/NNP
+  before/IN
+  beginning/NN
+  an/DT
+  architectural/JJ
+  degree/NN
+  at/IN
+  the/DT
+  University/NNP
+  of/IN
+  Auckland/NNP)
+(S
+  Dr Buncke/NNP
+  attended/VBD
+  (NODE1 Lehigh University/NNP in/IN Bethlehem Pennsylvania/NNP)
+  and/CC
+  earned/VBD
+  his/PRP$
+  medical/JJ
+  (NODE1 degree/NN from/IN the/DT New York Medical College/NNP)
+  in/IN
+  1951/CD
+  http www zoominfo com directory Buncke_CHICAGO Harry_584127694 htm/NN)
+(S
+  (NODE1 Dr Buncke/NNP attended/VBD Lehigh University/NNP)
+  in/IN
+  Bethlehem Pennsylvania/NNP
+  and/CC
+  earned/VBD
+  his/PRP$
+  medical/JJ
+  degree/NN
+  from/IN
+  the/DT
+  New York Medical College/NNP
+  in/IN
+  1951/CD
+  http www zoominfo com directory Buncke_CHICAGO Harry_584127694 htm/NN)
+(S
+  Brian/JJ
+  Woermann/NNP
+  attended/VBD
+  Milford High School/NNP
+  where/WRB
+  Matt Stryker/NNP
+  played/VBD
+  basketball/NN
+  and/CC
+  Diving/NNP)
+(S
+  Brian/JJ
+  (NODE1 Woermann/NNP attended/VBD Milford High School/NNP)
+  where/WRB
+  (NODE1 Matt Stryker/NNP played/VBD basketball/NN)
+  and/CC
+  Diving/NNP)
+(S
+  (NODE1
+    Graham Capill/NNP
+    was educated/VBN
+    at/IN
+    Middleton Grange School/NNP)
+  a/DT
+  large evangelical/JJ
+  (NODE1 Protestant school/NN in/IN that/DT city/NN)
+  where/WRB
+  his/PRP$
+  father Donald Capill/NNP
+  was/VBD
+  Vice Principal/NNP
+  for/IN
+  most/JJS
+  of/IN
+  the/DT
+  seventies/NNS
+  and/CC
+  his/PRP$
+  brothers David Murray/NNP
+  and/CC
+  Timothy/NNP
+  attended/VBD
+  the/DT
+  same/JJ
+  school/NN)
+(S
+  Graham Capill/NNP
+  was educated/VBN
+  at/IN
+  Middleton Grange School/NNP
+  a/DT
+  large evangelical/JJ
+  Protestant school/NN
+  in/IN
+  that/DT
+  city/NN
+  where/WRB
+  his/PRP$
+  (NODE1 father Donald Capill/NNP was/VBD Vice Principal/NNP)
+  for/IN
+  most/JJS
+  of/IN
+  the/DT
+  seventies/NNS
+  and/CC
+  his/PRP$
+  brothers David Murray/NNP
+  and/CC
+  (NODE1 Timothy/NNP attended/VBD the/DT same/JJ school/NN))
+(S
+  Julia Bell/NNP
+  attended/VBD
+  (NODE1 Girton College/NNP in/IN Cambridge/NNP)
+  and/CC
+  took/VBD
+  the/DT
+  Mathematical Tripos exam/NN
+  in/IN
+  1901/CD)
+(S
+  (NODE1 Julia Bell/NNP attended/VBD Girton College/NNP)
+  in/IN
+  Cambridge/NNP
+  and/CC
+  took/VBD
+  the/DT
+  Mathematical Tripos exam/NN
+  in/IN
+  1901/CD)
+(S
+  In/IN
+  1973/CD
+  they/PRP
+  moved/VBD
+  to/TO
+  the/DT
+  Chicago area/NN
+  where/WRB
+  Greg/NNP
+  attended/VBD
+  Downers Grove South High School/NNP)
+(S
+  In/IN
+  1973/CD
+  they/PRP
+  moved/VBD
+  to/TO
+  the/DT
+  Chicago area/NN
+  where/WRB
+  (NODE1 Greg/NNP attended/VBD Downers Grove South High School/NNP))
+(S
+  Ion Marin Sadoveanu/NNP
+  continued/VBD
+  his/PRP$
+  (NODE1 education/NN at/IN the/DT Saint Sava National College/NNP)
+  of/IN
+  Bucharest/NNP
+  1908 1912/CD)
+(S
+  Ion Marin Sadoveanu/NNP
+  continued/VBD
+  his/PRP$
+  education/NN
+  at/IN
+  the/DT
+  Saint Sava National College/NNP
+  of/IN
+  Bucharest/NNP
+  1908 1912/CD)
+(S
+  The/DT
+  (NODE1 son/NN of/IN a/DT Northumberland miner Sid Waddell/NNP)
+  attended/VBD
+  King Edward VI School KEVI Morpeth/NNP
+  and/CC
+  Sid Waddell/NNP
+  went/VBD
+  on/IN
+  to/TO
+  obtain/VB
+  a/DT
+  scholarship/NN
+  to/TO
+  St John/NNP
+  s/VBZ
+  College Cambridge/NNP
+  where/WRB
+  (NODE1 Sid Waddell/NNP graduated/VBD with/IN a/DT degree/NN)
+  in/IN
+  modern/JJ
+  history/NN)
+(S
+  The/DT
+  son/NN
+  of/IN
+  a/DT
+  (NODE1
+    Northumberland miner Sid Waddell/NNP
+    attended/VBD
+    King Edward VI School KEVI Morpeth/NNP)
+  and/CC
+  Sid Waddell/NNP
+  went/VBD
+  on/IN
+  to/TO
+  obtain/VB
+  a/DT
+  scholarship/NN
+  to/TO
+  (NODE1 St John/NNP s/VBZ College Cambridge/NNP)
+  where/WRB
+  (NODE1 Sid Waddell/NNP graduated/VBD with/IN a/DT degree/NN)
+  in/IN
+  modern/JJ
+  history/NN)
+(S
+  Dr Jorden/NNP
+  earned/VBD
+  (NODE1 her/PRP Ph D/NNP at/IN Yale University/NNP)
+  under/IN
+  the/DT
+  (NODE1 direction/NN of/IN Bernard Bloch/NNP)
+  in/IN
+  1950/CD)
+(S
+  Dr Jorden/NNP
+  earned/VBD
+  her/PRP
+  Ph D/NNP
+  at/IN
+  Yale University/NNP
+  under/IN
+  the/DT
+  direction/NN
+  of/IN
+  Bernard Bloch/NNP
+  in/IN
+  1950/CD)
+(S
+  Ben Barry/NNP
+  attended/VBD
+  the/DT
+  independent/JJ
+  school Elmwood School/NNP
+  before/IN
+  moving/VBG
+  on/IN
+  to/TO
+  Ashbury College/NNP
+  and/CC
+  graduated/VBD
+  from/IN
+  the/DT
+  (NODE1 University/NNP of/IN Toronto/NNP)
+  where/WRB
+  Ben Barry/NNP
+  was/VBD
+  a/DT
+  (NODE1 member/NN of/IN Trinity College/NNP)
+  in/IN
+  2005/CD
+  with/IN
+  a/DT
+  BA/NNP
+  in/IN
+  Women s Studies/NNPS
+  and/CC
+  Political Science/NNP)
+(S
+  (NODE1
+    Ben Barry/NNP
+    attended/VBD
+    the/DT
+    independent/JJ
+    school Elmwood School/NNP)
+  before/IN
+  moving/VBG
+  on/IN
+  to/TO
+  Ashbury College/NNP
+  and/CC
+  graduated/VBD
+  from/IN
+  the/DT
+  University/NNP
+  of/IN
+  Toronto/NNP
+  where/WRB
+  (NODE1 Ben Barry/NNP was/VBD a/DT member/NN)
+  of/IN
+  Trinity College/NNP
+  in/IN
+  2005/CD
+  with/IN
+  a/DT
+  BA/NNP
+  in/IN
+  Women s Studies/NNPS
+  and/CC
+  Political Science/NNP)
+(S
+  (NODE1
+    Edward Spencer Beesly/NNP
+    was educated/VBN
+    at/IN
+    Wadham College Oxford/NNP)
+  which/WDT
+  may/MD
+  be regarded/VBN
+  as/IN
+  the/DT
+  original/JJ
+  (NODE1 centre/NN of/IN the/DT English positivist movement/NN))
+(S
+  Edward Spencer Beesly/NNP
+  was educated/VBN
+  at/IN
+  Wadham College Oxford/NNP
+  which/WDT
+  may/MD
+  be regarded/VBN
+  as/IN
+  the/DT
+  original/JJ
+  centre/NN
+  of/IN
+  the/DT
+  English positivist movement/NN)
+(S
+  In/IN
+  1973/CD
+  Duff/NNP
+  earned/VBD
+  her/PRP
+  undergraduate/VBP
+  degree/JJ
+  in/IN
+  (NODE1 English/NNP from/IN Austin College/NNP)
+  in/IN
+  Sherman Texas/NNP)
+(S
+  In/IN
+  1973/CD
+  Duff/NNP
+  earned/VBD
+  her/PRP
+  undergraduate/VBP
+  degree/JJ
+  in/IN
+  English/NNP
+  from/IN
+  Austin College/NNP
+  in/IN
+  Sherman Texas/NNP)
+(S
+  from/IN
+  NYU s Tisch School/NNP
+  of/IN
+  the/DT
+  Arts/NNS
+  and/CC
+  later/JJ
+  went/NN
+  on/IN
+  to/TO
+  make/VB
+  a/DT
+  short/JJ
+  film Night Hawks At/NNP
+  the/DT
+  Diner/NNP
+  which/WDT
+  was screened/VBN
+  on/IN
+  Showtime/NNP)
+(S
+  from/IN
+  NYU s Tisch School/NNP
+  of/IN
+  the/DT
+  Arts/NNS
+  and/CC
+  later/JJ
+  went/NN
+  on/IN
+  to/TO
+  make/VB
+  a/DT
+  short/JJ
+  film Night Hawks At/NNP
+  the/DT
+  Diner/NNP
+  which/WDT
+  was screened/VBN
+  on/IN
+  Showtime/NNP)
+(S
+  Hannes Marino Hannesson/NNP
+  attended/VBD
+  the/DT
+  (NODE1 University/NNP of/IN Manitoba/NNP)
+  and/CC
+  trained/VBD
+  as/IN
+  a/DT
+  lawyer/NN
+  being/VBG
+  called/VBN
+  to/TO
+  the/DT
+  Manitoba bar/NN
+  in/IN
+  1905/CD
+  and/CC
+  practiced/VBN
+  (NODE1 law/NN in/IN Winnipeg/NNP)
+  and/CC
+  Selkirk Manitoba/NNP)
+(S
+  (NODE1
+    Hannes Marino Hannesson/NNP
+    attended/VBD
+    the/DT
+    University/NNP)
+  of/IN
+  Manitoba/NNP
+  and/CC
+  trained/VBD
+  as/IN
+  a/DT
+  lawyer/NN
+  being/VBG
+  called/VBN
+  to/TO
+  the/DT
+  Manitoba bar/NN
+  in/IN
+  1905/CD
+  and/CC
+  practiced/VBN
+  law/NN
+  in/IN
+  Winnipeg/NNP
+  and/CC
+  Selkirk Manitoba/NNP)
+(S
+  Mike Super/NNP
+  has performed/VBN
+  magic/JJ
+  to/TO
+  put/VB
+  (NODE1 himself/PRP through/IN the/DT University/NNP)
+  of/IN
+  Pittsburgh/NNP
+  which/WDT
+  (NODE1 Mike Super/NNP majored/VBD in/IN Computer Science/NNP))
+(S
+  Mike Super/NNP
+  has performed/VBN
+  magic/JJ
+  to/TO
+  put/VB
+  himself/PRP
+  through/IN
+  the/DT
+  University/NNP
+  of/IN
+  Pittsburgh/NNP
+  which/WDT
+  (NODE1 Mike Super/NNP majored/VBD in/IN Computer Science/NNP))
+(S
+  Stanley Holmes/NNP
+  1st/CD
+  (NODE1 Baron Dovercourt/NNP was educated/VBN at/IN the/DT City/NNP)
+  of/IN
+  London School/NNP)
+(S
+  Stanley Holmes/NNP
+  1st/CD
+  Baron Dovercourt/NNP
+  was educated/VBN
+  at/IN
+  the/DT
+  City/NNP
+  of/IN
+  London School/NNP)
+(S
+  in/IN
+  (NODE1 history/NN at/IN Osmania University M Phil/NNP)
+  on/IN
+  (NODE1 Agrarian Relations/NNP of/IN Telangana/NNP)
+  and/CC
+  (NODE1 Ph D/NNP on/IN Telangana Peasant Movement/NNP)
+  both/DT
+  from/IN
+  (NODE1
+    Centre/NNP
+    for/IN
+    Historical Studies Jawaharlal Nehru University/NNP))
+(S
+  in/IN
+  history/NN
+  at/IN
+  Osmania University M Phil/NNP
+  on/IN
+  Agrarian Relations/NNP
+  of/IN
+  Telangana/NNP
+  and/CC
+  Ph D/NNP
+  on/IN
+  Telangana Peasant Movement/NNP
+  both/DT
+  from/IN
+  Centre/NNP
+  for/IN
+  Historical Studies Jawaharlal Nehru University/NNP)
+(S
+  Maureen Francisco/NNP
+  attended/VBD
+  Pacific Lutheran University/NNP
+  and/CC
+  received/VBD
+  a/DT
+  bachelor/NN
+  s/VBZ
+  (NODE1 degree/NN in/IN Journalism/NNP)
+  in/IN
+  1999/CD)
+(S
+  (NODE1
+    Maureen Francisco/NNP
+    attended/VBD
+    Pacific Lutheran University/NNP)
+  and/CC
+  received/VBD
+  a/DT
+  (NODE1 bachelor/NN s/VBZ degree/NN)
+  in/IN
+  Journalism/NNP
+  in/IN
+  1999/CD)
+(S
+  Smith/NNP
+  attended/VBD
+  the/DT
+  (NODE1 University/NNP of/IN Louisville earning/NN)
+  his/PRP$
+  Bachelor/NNP
+  of/IN
+  Arts/NNPS
+  in/IN
+  political/JJ
+  science/NN
+  in/IN
+  2000/CD)
+(S
+  (NODE1 Smith/NNP attended/VBD the/DT University/NNP)
+  of/IN
+  Louisville earning/NN
+  his/PRP$
+  Bachelor/NNP
+  of/IN
+  Arts/NNPS
+  in/IN
+  political/JJ
+  science/NN
+  in/IN
+  2000/CD)
+(S
+  Scott Bauer/NNP
+  obtained/VBD
+  his/PRP$
+  bachelor s/NNS
+  degree/VBP
+  from/IN
+  UCLA/NNP
+  his/PRP$
+  (NODE1 master s/NNS from/IN Fuller Theological Seminary/NNP)
+  and/CC
+  a/DT
+  (NODE1 doctorate/NN in/IN ministry/NN)
+  from/IN
+  Oral Roberts University/NNP)
+(S
+  Scott Bauer/NNP
+  obtained/VBD
+  his/PRP$
+  bachelor s/NNS
+  degree/VBP
+  from/IN
+  UCLA/NNP
+  his/PRP$
+  master s/NNS
+  from/IN
+  Fuller Theological Seminary/NNP
+  and/CC
+  a/DT
+  doctorate/NN
+  in/IN
+  ministry/NN
+  from/IN
+  Oral Roberts University/NNP)
+(S
+  (NODE1
+    Paul Leonard/NNP
+    graduated/VBD
+    from/IN
+    the/DT
+    Ohio University/NNP)
+  with/IN
+  a/DT
+  B A/NNP)
+(S
+  (NODE1
+    Paul Leonard/NNP
+    graduated/VBD
+    from/IN
+    the/DT
+    Ohio University/NNP)
+  with/IN
+  a/DT
+  B A/NNP)
+(S
+  The/DT
+  (NODE1 son/NN of/IN a/DT judge/NN)
+  in/IN
+  (NODE1
+    British India Kemp/NNP
+    was educated/VBN
+    at/IN
+    Wellington School/NNP)
+  and/CC
+  proceeded/VBD
+  to/TO
+  Trinity College Cambridge/NNP
+  where/WRB
+  Peter Kemp/NNP
+  studied/VBD
+  classics/NNS
+  and/CC
+  law/NN)
+(S
+  The/DT
+  son/NN
+  of/IN
+  a/DT
+  judge/NN
+  in/IN
+  British India Kemp/NNP
+  was educated/VBN
+  at/IN
+  Wellington School/NNP
+  and/CC
+  proceeded/VBD
+  to/TO
+  Trinity College Cambridge/NNP
+  where/WRB
+  Peter Kemp/NNP
+  studied/VBD
+  classics/NNS
+  and/CC
+  law/NN)
+(S
+  (NODE1 Mark Nicolson/NNP was born/VBN in/IN Galesburg Illinois/NNP)
+  and/CC
+  grew/VBD
+  up/RP
+  in/IN
+  Peoria Illinois/NNP
+  where/WRB
+  Mark Nicolson/NNP
+  attended/VBD
+  Bradley University/NNP)
+(S
+  Mark Nicolson/NNP
+  was born/VBN
+  in/IN
+  Galesburg Illinois/NNP
+  and/CC
+  grew/VBD
+  up/RP
+  in/IN
+  Peoria Illinois/NNP
+  where/WRB
+  (NODE1 Mark Nicolson/NNP attended/VBD Bradley University/NNP))
+(S
+  Oberg/NNP
+  earned/VBD
+  a/DT
+  bachelor/NN
+  s/VBZ
+  degree/NN
+  in/IN
+  (NODE1 economics/NNS from/IN the/DT University/NNP)
+  of/IN
+  British Columbia/NNP
+  attended/VBD
+  the/DT
+  (NODE1 University/NNP of/IN Pittsburgh/NNP)
+  where/WRB
+  Kalervo Oberg/NNP
+  earned/VBD
+  a/DT
+  master/NN
+  s/VBZ
+  degree/NN
+  in/IN
+  economics/NNS
+  and/CC
+  earned/VBD
+  his/PRP$
+  (NODE1 doctorate/NN from/IN University/NNP)
+  of/IN
+  Chicago/NNP
+  which/WDT
+  linked/VBN
+  economics/NNS
+  and/CC
+  the/DT
+  social/JJ
+  (NODE1 organization/NN among/IN the/DT Tlingit/NNP)
+  an/DT
+  Alaskan Native tribe/NN)
+(S
+  (NODE1 Oberg/NNP earned/VBD a/DT bachelor/NN)
+  s/VBZ
+  degree/NN
+  in/IN
+  economics/NNS
+  from/IN
+  the/DT
+  University/NNP
+  of/IN
+  (NODE1 British Columbia/NNP attended/VBD the/DT University/NNP)
+  of/IN
+  Pittsburgh/NNP
+  where/WRB
+  (NODE1 Kalervo Oberg/NNP earned/VBD a/DT master/NN)
+  s/VBZ
+  degree/NN
+  in/IN
+  economics/NNS
+  and/CC
+  earned/VBD
+  his/PRP$
+  doctorate/NN
+  from/IN
+  University/NNP
+  of/IN
+  Chicago/NNP
+  which/WDT
+  linked/VBN
+  economics/NNS
+  and/CC
+  the/DT
+  social/JJ
+  organization/NN
+  among/IN
+  the/DT
+  Tlingit/NNP
+  an/DT
+  Alaskan Native tribe/NN)
+(S
+  Robinson/NNP
+  averaged/VBD
+  14 3/CD
+  points/NNS
+  and/CC
+  5 7/CD
+  assists/NNS
+  during/IN
+  his/PRP$
+  (NODE1 collegiate career/NN at/IN the/DT University/NNP)
+  of/IN
+  Michigan/NNP)
+(S
+  Robinson/NNP
+  averaged/VBD
+  14 3/CD
+  points/NNS
+  and/CC
+  5 7/CD
+  assists/NNS
+  during/IN
+  his/PRP$
+  collegiate career/NN
+  at/IN
+  the/DT
+  University/NNP
+  of/IN
+  Michigan/NNP)
+(S
+  In/IN
+  May/NNP
+  1882/CD
+  William Compton/NNP
+  6th/CD
+  (NODE1 Marquess/NNP of/IN Northampton/NNP)
+  became/VBD
+  (NODE1 aide/NN de/IN camp/NN)
+  to/TO
+  Lord Ripon/NNP
+  the/DT
+  (NODE1 Viceroy/NNP of/IN India/NNP)
+  until/IN
+  the/DT
+  latter/NN
+  left/VBD
+  (NODE1 office/NN in/IN February/NNP)
+  1884/CD
+  and/CC
+  was appointed/VBN
+  full/JJ
+  lieutenant/NN
+  on/IN
+  28/CD
+  November/NNP
+  1883/CD)
+(S
+  In/IN
+  May/NNP
+  1882/CD
+  William Compton/NNP
+  6th/CD
+  Marquess/NNP
+  of/IN
+  (NODE1 Northampton/NNP became/VBD aide/NN)
+  de/IN
+  camp/NN
+  to/TO
+  Lord Ripon/NNP
+  the/DT
+  Viceroy/NNP
+  of/IN
+  India/NNP
+  until/IN
+  the/DT
+  (NODE1 latter/NN left/VBD office/NN)
+  in/IN
+  February/NNP
+  1884/CD
+  and/CC
+  was appointed/VBN
+  full/JJ
+  lieutenant/NN
+  on/IN
+  28/CD
+  November/NNP
+  1883/CD)
+(S
+  Leonard White/NNP
+  attended/VBD
+  the/DT
+  Mowry/NNP
+  and/CC
+  Goff School/NNP
+  and/CC
+  was tutored/VBN
+  by/IN
+  (NODE1
+    Dr Joshua Mason Macomber/NNP
+    of/IN
+    the/DT
+    Uxbridge Academy Uxbridge Joshua Mason Macomber/NNP)
+  completed/VBD
+  his/PRP$
+  (NODE1 education/NN at/IN Harvard Medical School/NNP))
+(S
+  (NODE1 Leonard White/NNP attended/VBD the/DT Mowry/NNP)
+  and/CC
+  Goff School/NNP
+  and/CC
+  was tutored/VBN
+  by/IN
+  Dr Joshua Mason Macomber/NNP
+  of/IN
+  the/DT
+  Uxbridge Academy Uxbridge Joshua Mason Macomber/NNP
+  completed/VBD
+  his/PRP$
+  education/NN
+  at/IN
+  Harvard Medical School/NNP)
+(S
+  Battsek/NNP
+  is/VBZ
+  a/DT
+  (NODE1 graduate/NN of/IN Oxford Polytechnic/NNP)
+  where/WRB
+  (NODE1 Daniel Battsek/NNP majored/VBD in/IN Social/NNP)
+  and/CC
+  Political Studies/NNPS)
+(S
+  (NODE1 Battsek/NNP is/VBZ a/DT graduate/NN)
+  of/IN
+  Oxford Polytechnic/NNP
+  where/WRB
+  (NODE1 Daniel Battsek/NNP majored/VBD in/IN Social/NNP)
+  and/CC
+  Political Studies/NNPS)
+(S
+  Judge Zarnoch/NNP
+  is/VBZ
+  an/DT
+  (NODE1 adjunct instructor/NN at/IN the/DT University/NNP)
+  of/IN
+  (NODE1 Maryland School/NNP of/IN Law/NNP)
+  and/CC
+  the/DT
+  (NODE1 University/NNP of/IN Baltimore School/NNP)
+  of/IN
+  Law/NNP)
+(S
+  (NODE1 Judge Zarnoch/NNP is/VBZ an/DT adjunct instructor/NN)
+  at/IN
+  the/DT
+  University/NNP
+  of/IN
+  Maryland School/NNP
+  of/IN
+  Law/NNP
+  and/CC
+  the/DT
+  University/NNP
+  of/IN
+  Baltimore School/NNP
+  of/IN
+  Law/NNP)
+(S
+  (NODE1 William Leigh/NNP was educated/VBN at/IN Harrow/NNP)
+  and/CC
+  Magdalen College Cambridge/NNP)
+(S
+  William Leigh/NNP
+  was educated/VBN
+  at/IN
+  Harrow/NNP
+  and/CC
+  Magdalen College Cambridge/NNP)
+(S
+  Karen Tanaka/NNP
+  taught/VBD
+  (NODE1 composition/NN at/IN the/DT University/NNP)
+  of/IN
+  California Santa Barbara/NNP
+  and/CC
+  the/DT
+  (NODE1 University/NNP of/IN Michigan Ann Arbor/NNP))
+(S
+  (NODE1 Karen Tanaka/NNP taught/VBD composition/NN)
+  at/IN
+  the/DT
+  University/NNP
+  of/IN
+  California Santa Barbara/NNP
+  and/CC
+  the/DT
+  University/NNP
+  of/IN
+  Michigan Ann Arbor/NNP)
+(S
+  (NODE1 Born/NNP in/IN Stevens Point Wisconsin Helbach/NNP)
+  graduated/VBD
+  from/IN
+  Pacelli High School/NNP
+  and/CC
+  then/RB
+  received/VBD
+  his/PRP$
+  degree/NN
+  in/IN
+  (NODE1 communications/NNS from/IN University/NNP)
+  of/IN
+  Wisconsin Stevens Point/NNP)
+(S
+  Born/NNP
+  in/IN
+  (NODE1
+    Stevens Point Wisconsin Helbach/NNP
+    graduated/VBD
+    from/IN
+    Pacelli High School/NNP)
+  and/CC
+  then/RB
+  received/VBD
+  his/PRP$
+  degree/NN
+  in/IN
+  communications/NNS
+  from/IN
+  University/NNP
+  of/IN
+  Wisconsin Stevens Point/NNP)
+(S
+  On/IN
+  1 2/CD
+  May/NNP
+  1997/CD
+  a/DT
+  symposium/NN
+  entitled/VBN
+  Godunov type/NN
+  numerical/JJ
+  (NODE1 methods/NNS was held/VBN at/IN the/DT University/NNP)
+  of/IN
+  Michigan/NNP
+  to/TO
+  honour/PRP$
+  Godunov/NNP)
+(S
+  On/IN
+  1 2/CD
+  May/NNP
+  1997/CD
+  a/DT
+  symposium/NN
+  entitled/VBN
+  Godunov type/NN
+  numerical/JJ
+  methods/NNS
+  was held/VBN
+  at/IN
+  the/DT
+  University/NNP
+  of/IN
+  Michigan/NNP
+  to/TO
+  honour/PRP$
+  Godunov/NNP)
+(S
+  Timothy Wu/NNP
+  attended/VBD
+  the/DT
+  Singapore American School/NNP
+  an/DT
+  international/JJ
+  (NODE1 school/NN in/IN Singapore/NNP))
+(S
+  (NODE1
+    Timothy Wu/NNP
+    attended/VBD
+    the/DT
+    Singapore American School/NNP)
+  an/DT
+  international/JJ
+  school/NN
+  in/IN
+  Singapore/NNP)
+(S
+  in/IN
+  (NODE1 Psychology/NNP from/IN the/DT University/NNP)
+  of/IN
+  California Los Angeles/NNP
+  in/IN
+  1965/CD
+  and/CC
+  completed/VBD
+  his/PRP$
+  (NODE1 Ph D/NNP in/IN Mathematical Psychology/NNP)
+  at/IN
+  the/DT
+  (NODE1 University/NNP of/IN Massachusetts Amherst/NNP)
+  in/IN
+  1968/CD)
+(S
+  in/IN
+  Psychology/NNP
+  from/IN
+  the/DT
+  University/NNP
+  of/IN
+  California Los Angeles/NNP
+  in/IN
+  1965/CD
+  and/CC
+  completed/VBD
+  his/PRP$
+  Ph D/NNP
+  in/IN
+  Mathematical Psychology/NNP
+  at/IN
+  the/DT
+  University/NNP
+  of/IN
+  Massachusetts Amherst/NNP
+  in/IN
+  1968/CD)
+(S
+  During/IN
+  his/PRP$
+  junior/JJ
+  year/NN
+  of/IN
+  college Coons/NNS
+  studied/VBD
+  abroad/RB
+  at/IN
+  the/DT
+  (NODE1 University/NNP of/IN Nairobi/NNP)
+  in/IN
+  Kenya/NNP)
+(S
+  During/IN
+  his/PRP$
+  junior/JJ
+  year/NN
+  of/IN
+  college Coons/NNS
+  studied/VBD
+  abroad/RB
+  at/IN
+  the/DT
+  University/NNP
+  of/IN
+  Nairobi/NNP
+  in/IN
+  Kenya/NNP)
+(S
+  Tomaso Poggio/NNP
+  received/VBD
+  the/DT
+  (NODE1 Laurea Honoris Causa/NNP from/IN the/DT University/NNP)
+  of/IN
+  Pavia/NNP
+  in/IN
+  2000/CD
+  the/DT
+  2003/CD
+  Gabor Award/NNP
+  the/DT
+  2009/CD
+  Okawa prize http www okawa foundation/NN
+  or/CC
+  jp/VB
+  e/JJ
+  oka index html/NN
+  and/CC
+  named/VBD
+  in/IN
+  2009/CD
+  a/DT
+  (NODE1 Fellow/NNP of/IN the/DT American Association/NNP)
+  for/IN
+  the/DT
+  (NODE1 Advancement/NNP of/IN Science AAAS/NNP)
+  for/IN
+  distinguished/JJ
+  contributions/NNS
+  to/TO
+  computational/JJ
+  neuroscience/NN
+  in/IN
+  particular computational/JJ
+  vision learning/NN
+  and/CC
+  (NODE1 regularization theory biophysics/NNS of/IN computation/NN)
+  and/CC
+  (NODE1 models/NNS of/IN recognition/NN)
+  in/IN
+  the/DT
+  visual/JJ
+  cortex/NN)
+(S
+  (NODE1
+    Tomaso Poggio/NNP
+    received/VBD
+    the/DT
+    Laurea Honoris Causa/NNP)
+  from/IN
+  the/DT
+  University/NNP
+  of/IN
+  Pavia/NNP
+  in/IN
+  2000/CD
+  the/DT
+  2003/CD
+  Gabor Award/NNP
+  the/DT
+  2009/CD
+  Okawa prize http www okawa foundation/NN
+  or/CC
+  jp/VB
+  e/JJ
+  oka index html/NN
+  and/CC
+  named/VBD
+  in/IN
+  2009/CD
+  a/DT
+  Fellow/NNP
+  of/IN
+  the/DT
+  American Association/NNP
+  for/IN
+  the/DT
+  Advancement/NNP
+  of/IN
+  Science AAAS/NNP
+  for/IN
+  distinguished/JJ
+  contributions/NNS
+  to/TO
+  computational/JJ
+  neuroscience/NN
+  in/IN
+  particular computational/JJ
+  vision learning/NN
+  and/CC
+  regularization theory biophysics/NNS
+  of/IN
+  computation/NN
+  and/CC
+  models/NNS
+  of/IN
+  recognition/NN
+  in/IN
+  the/DT
+  visual/JJ
+  cortex/NN)
+(S
+  Eddie Brennan/NNP
+  later/JJ
+  attended/VBD
+  St Kieran/NNP
+  s/VBZ
+  College Kilkenny/NNP
+  one/CD
+  of/IN
+  the/DT
+  foremost/JJS
+  nurseries/NNS
+  for/IN
+  young/JJ
+  hurling talent/NN)
+(S
+  (NODE1 Eddie Brennan/NNP later/JJ attended/VBD St Kieran/NNP)
+  s/VBZ
+  College Kilkenny/NNP
+  one/CD
+  of/IN
+  the/DT
+  foremost/JJS
+  nurseries/NNS
+  for/IN
+  young/JJ
+  hurling talent/NN)
+(S
+  Deora/NNP
+  is/VBZ
+  an/DT
+  (NODE1 alumnus/NN of/IN Cathedral/NNP)
+  and/CC
+  John Connon School Sydenham College/NNP
+  and/CC
+  Boston University/NNP
+  in/IN
+  the/DT
+  United States/NNPS)
+(S
+  (NODE1 Deora/NNP is/VBZ an/DT alumnus/NN)
+  of/IN
+  Cathedral/NNP
+  and/CC
+  John Connon School Sydenham College/NNP
+  and/CC
+  Boston University/NNP
+  in/IN
+  the/DT
+  United States/NNPS)
+(S
+  Catherine R Kinney/NNP
+  has received/VBN
+  honorary/JJ
+  (NODE1 degrees/NNS from/IN Georgetown University/NNP)
+  and/CC
+  Rosemont College/NNP)
+(S
+  Catherine R Kinney/NNP
+  has received/VBN
+  honorary/JJ
+  degrees/NNS
+  from/IN
+  Georgetown University/NNP
+  and/CC
+  Rosemont College/NNP)
+(S
+  (NODE1
+    John W Tyson/NNP
+    graduated/VBD
+    from/IN
+    Southern Methodist University Dallas TX/NNP))
+(S
+  (NODE1
+    John W Tyson/NNP
+    graduated/VBD
+    from/IN
+    Southern Methodist University Dallas TX/NNP))
+(S
+  Joel Gilbert/NNP
+  is/VBZ
+  a/DT
+  (NODE1 graduate/NN of/IN the/DT University/NNP)
+  of/IN
+  London/NNP
+  where/WRB
+  (NODE1 Joel Gilbert/NNP studied/VBD at/IN the/DT School/NNP)
+  of/IN
+  Oriental/NNP
+  and/CC
+  African Studies/NNPS
+  and/CC
+  the/DT
+  (NODE1 London School/NNP of/IN Economics BA/NNP)
+  1986/CD)
+(S
+  (NODE1 Joel Gilbert/NNP is/VBZ a/DT graduate/NN)
+  of/IN
+  the/DT
+  University/NNP
+  of/IN
+  London/NNP
+  where/WRB
+  (NODE1 Joel Gilbert/NNP studied/VBD at/IN the/DT School/NNP)
+  of/IN
+  Oriental/NNP
+  and/CC
+  African Studies/NNPS
+  and/CC
+  the/DT
+  London School/NNP
+  of/IN
+  Economics BA/NNP
+  1986/CD)
+(S
+  Janet Nichols Lynch/NNP
+  has taught/VBN
+  music/JJ
+  at/IN
+  De Anza College Cupertino/NNP
+  and/CC
+  Skyline College San Bruno/NNP
+  and/CC
+  music/JJ
+  and/CC
+  (NODE1 English/NNP at/IN College/NNP)
+  of/IN
+  the/DT
+  Sequoias Visalia/NNP
+  currently/RB
+  Janet Nichols Lynch/NNP
+  teaches/VBZ
+  (NODE1 English/NNP at/IN El Diamante High school/NN))
+(S
+  Janet Nichols Lynch/NNP
+  has taught/VBN
+  music/JJ
+  at/IN
+  De Anza College Cupertino/NNP
+  and/CC
+  Skyline College San Bruno/NNP
+  and/CC
+  music/JJ
+  and/CC
+  English/NNP
+  at/IN
+  College/NNP
+  of/IN
+  the/DT
+  Sequoias Visalia/NNP
+  currently/RB
+  (NODE1 Janet Nichols Lynch/NNP teaches/VBZ English/NNP)
+  at/IN
+  El Diamante High school/NN)
+(S
+  (NODE1
+    Nehemiah Donnellan/NNP
+    graduated/VBD
+    from/IN
+    Trinity College Dublin/NNP)
+  in/IN
+  1666/CD)
+(S
+  (NODE1
+    Nehemiah Donnellan/NNP
+    graduated/VBD
+    from/IN
+    Trinity College Dublin/NNP)
+  in/IN
+  1666/CD)
+(S
+  After/IN
+  a/DT
+  year/NN
+  it/PRP
+  was decided/VBN
+  to/TO
+  give/VB
+  up/IN
+  (NODE1 study/NN of/IN the/DT violin/NN)
+  and/CC
+  piano/NN
+  and/CC
+  fully/RB
+  devote/VB
+  the/DT
+  young/JJ
+  student/NN
+  to/TO
+  voice lessons/NNS)
+(S
+  After/IN
+  a/DT
+  year/NN
+  it/PRP
+  was decided/VBN
+  to/TO
+  give/VB
+  up/IN
+  study/NN
+  of/IN
+  the/DT
+  violin/NN
+  and/CC
+  piano/NN
+  and/CC
+  fully/RB
+  devote/VB
+  the/DT
+  young/JJ
+  student/NN
+  to/TO
+  voice lessons/NNS)
+(S
+  In/IN
+  1922/CD
+  Evaline Ness/NNP
+  received/VBD
+  her/PRP
+  master s/NNS
+  degree/VBP
+  in/IN
+  (NODE1
+    International Relations/NNP
+    from/IN
+    Vanderbilt University/NNP))
+(S
+  In/IN
+  1922/CD
+  Evaline Ness/NNP
+  received/VBD
+  her/PRP
+  master s/NNS
+  degree/VBP
+  in/IN
+  International Relations/NNP
+  from/IN
+  Vanderbilt University/NNP)
+(S
+  Li Ruogu/NNP
+  was/VBD
+  briefly/RB
+  an/DT
+  assistant/JJ
+  (NODE1 professor/NN at/IN Beijing University/NNP)
+  before/IN
+  joining/VBG
+  the/DT
+  People/NNP
+  s/VBZ
+  (NODE1 Bank/NNP of/IN China/NNP)
+  in/IN
+  1985/CD)
+(S
+  Li Ruogu/NNP
+  was/VBD
+  briefly/RB
+  an/DT
+  assistant/JJ
+  professor/NN
+  at/IN
+  Beijing University/NNP
+  before/IN
+  joining/VBG
+  the/DT
+  (NODE1 People/NNP s/VBZ Bank/NNP)
+  of/IN
+  China/NNP
+  in/IN
+  1985/CD)
+(S
+  (NODE1 Born/NNP in/IN Covington Indiana Voorhees/NNP)
+  attended/VBD
+  Wabash College Crawfordsville Indiana/NNP
+  and/CC
+  was graduated/VBN
+  from/IN
+  Georgetown College Washington D C June/NNP
+  26 1873/CD)
+(S
+  Born/NNP
+  in/IN
+  (NODE1
+    Covington Indiana Voorhees/NNP
+    attended/VBD
+    Wabash College Crawfordsville Indiana/NNP)
+  and/CC
+  was graduated/VBN
+  from/IN
+  Georgetown College Washington D C June/NNP
+  26 1873/CD)
+(S
+  After/IN
+  (NODE1 education/NN in/IN Sedan/NNP)
+  at/IN
+  an/DT
+  early/JJ
+  age Isaac Casaubon/NNP
+  joined/VBD
+  his/PRP$
+  (NODE1 father/NN in/IN England/NNP)
+  and/CC
+  completed/VBD
+  his/PRP$
+  (NODE1 education/NN at/IN Eton College/NNP)
+  and/CC
+  Christ Church Oxford B A/NNP)
+(S
+  After/IN
+  education/NN
+  in/IN
+  Sedan/NNP
+  at/IN
+  an/DT
+  early/JJ
+  age Isaac Casaubon/NNP
+  joined/VBD
+  his/PRP$
+  father/NN
+  in/IN
+  England/NNP
+  and/CC
+  completed/VBD
+  his/PRP$
+  education/NN
+  at/IN
+  Eton College/NNP
+  and/CC
+  Christ Church Oxford B A/NNP)
+(S
+  From/IN
+  1968/CD
+  to/TO
+  1969/CD
+  (NODE1 Neal/NNP taught/VBD at/IN the/DT City College/NNP)
+  of/IN
+  New York/NNP)
+(S
+  From/IN
+  1968/CD
+  to/TO
+  1969/CD
+  (NODE1 Neal/NNP taught/VBD at/IN the/DT City College/NNP)
+  of/IN
+  New York/NNP)
+(S
+  During/IN
+  his/PRP$
+  (NODE1 tenure/NN at/IN YPAS/NNP)
+  the/DT
+  school/NN
+  s/VBZ
+  top/JJ
+  orchestra Philharmonia/NNP
+  was invited/VBN
+  to/TO
+  appear/VB
+  at/IN
+  the/DT
+  Kentucky Music Educators Conference/NNP
+  the/DT
+  Southern Division MENC Conference/NNP
+  1999/CD
+  in/IN
+  Tampa/NNP
+  the/DT
+  national/JJ
+  (NODE1 meeting/NN of/IN the/DT MENC/NNP)
+  2000/CD
+  in/IN
+  Washington D C/NNP
+  the/DT
+  Midwest Clinic/NNP
+  1999/CD
+  and/CC
+  2004/CD
+  in/IN
+  Chicago/NNP
+  and/CC
+  the/DT
+  first national/JJ
+  (NODE1
+    conference/NN
+    of/IN
+    the/DT
+    American String Teachers Association/NNP)
+  2003/CD
+  in/IN
+  Columbus/NNP)
+(S
+  During/IN
+  his/PRP$
+  tenure/NN
+  at/IN
+  YPAS/NNP
+  the/DT
+  (NODE1 school/NN s/VBZ top/JJ orchestra Philharmonia/NNP)
+  was invited/VBN
+  to/TO
+  appear/VB
+  at/IN
+  the/DT
+  Kentucky Music Educators Conference/NNP
+  the/DT
+  Southern Division MENC Conference/NNP
+  1999/CD
+  in/IN
+  Tampa/NNP
+  the/DT
+  national/JJ
+  meeting/NN
+  of/IN
+  the/DT
+  MENC/NNP
+  2000/CD
+  in/IN
+  Washington D C/NNP
+  the/DT
+  Midwest Clinic/NNP
+  1999/CD
+  and/CC
+  2004/CD
+  in/IN
+  Chicago/NNP
+  and/CC
+  the/DT
+  first national/JJ
+  conference/NN
+  of/IN
+  the/DT
+  American String Teachers Association/NNP
+  2003/CD
+  in/IN
+  Columbus/NNP)
+(S
+  Edward D Taussig/NNP
+  also/RB
+  attended/VBD
+  the/DT
+  Naval War College/NNP
+  was/VBD
+  (NODE1 Captain/NNP of/IN the/DT Yard/NNP)
+  at/IN
+  the/DT
+  New York Navy Yard/NNP
+  and/CC
+  was/VBD
+  (NODE1 Commandant/NNP of/IN the/DT Norfolk Navy Yard/NNP)
+  and/CC
+  the/DT
+  Fifth Naval District/NNP)
+(S
+  Edward D Taussig/NNP
+  also/RB
+  attended/VBD
+  the/DT
+  (NODE1 Naval War College/NNP was/VBD Captain/NNP)
+  of/IN
+  the/DT
+  Yard/NNP
+  at/IN
+  the/DT
+  New York Navy Yard/NNP
+  and/CC
+  was/VBD
+  Commandant/NNP
+  of/IN
+  the/DT
+  Norfolk Navy Yard/NNP
+  and/CC
+  the/DT
+  Fifth Naval District/NNP)
+(S
+  Saadi/NNP
+  studied/VBD
+  (NODE1 law/NN at/IN the/DT University/NNP)
+  of/IN
+  Buenos Aires graduating/NN
+  in/IN
+  1977/CD)
+(S
+  (NODE1 Saadi/NNP studied/VBD law/NN)
+  at/IN
+  the/DT
+  University/NNP
+  of/IN
+  Buenos Aires graduating/NN
+  in/IN
+  1977/CD)
+(S
+  Coleman Barks/NNP
+  received/VBD
+  an/DT
+  honorary/JJ
+  (NODE1 doctorate/NN from/IN Tehran University/NNP)
+  in/IN
+  2006/CD)
+(S
+  (NODE1
+    Coleman Barks/NNP
+    received/VBD
+    an/DT
+    honorary/JJ
+    doctorate/NN)
+  from/IN
+  Tehran University/NNP
+  in/IN
+  2006/CD)
+(S
+  (NODE1 Leitner/NNP graduated/VBD from/IN the/DT University/NNP)
+  of/IN
+  (NODE1 California Los Angeles/NNP with/IN a/DT bachelor/NN)
+  s/VBZ
+  (NODE1 degree/NN in/IN English/NNP)
+  before/IN
+  eventually/RB
+  completing/VBG
+  her/PRP
+  master/JJR
+  s/NNS
+  degree/VBP
+  in/IN
+  (NODE1 journalism/NN from/IN Boston University/NNP)
+  in/IN
+  Massachusetts/NNP)
+(S
+  (NODE1 Leitner/NNP graduated/VBD from/IN the/DT University/NNP)
+  of/IN
+  California Los Angeles/NNP
+  with/IN
+  a/DT
+  (NODE1 bachelor/NN s/VBZ degree/NN)
+  in/IN
+  English/NNP
+  before/IN
+  eventually/RB
+  completing/VBG
+  her/PRP
+  master/JJR
+  s/NNS
+  degree/VBP
+  in/IN
+  journalism/NN
+  from/IN
+  Boston University/NNP
+  in/IN
+  Massachusetts/NNP)
+(S
+  Recep Peker/NNP
+  graduated/VBD
+  in/IN
+  1919/CD
+  as/IN
+  the/DT
+  first/JJ
+  of/IN
+  his/PRP$
+  (NODE1 class/NN from/IN the/DT Staff College/NNP)
+  to/TO
+  which/WDT
+  Recep Peker/NNP
+  entered/VBD
+  in/IN
+  1911/CD)
+(S
+  Recep Peker/NNP
+  graduated/VBD
+  in/IN
+  1919/CD
+  as/IN
+  the/DT
+  first/JJ
+  of/IN
+  his/PRP$
+  class/NN
+  from/IN
+  the/DT
+  Staff College/NNP
+  to/TO
+  which/WDT
+  Recep Peker/NNP
+  entered/VBD
+  in/IN
+  1911/CD)
+(S
+  Tao Yang/NNP
+  attended/VBD
+  Tongji University/NNP
+  where/WRB
+  Tao Yang/NNP
+  received/VBD
+  his/PRP$
+  Bachelor/NNP
+  s/VBZ
+  degree/NN
+  in/IN
+  1990/CD
+  and/CC
+  his/PRP$
+  Master/NNP
+  s/VBZ
+  degree/NN
+  in/IN
+  1993/CD)
+(S
+  (NODE1 Tao Yang/NNP attended/VBD Tongji University/NNP)
+  where/WRB
+  Tao Yang/NNP
+  received/VBD
+  his/PRP$
+  (NODE1 Bachelor/NNP s/VBZ degree/NN)
+  in/IN
+  1990/CD
+  and/CC
+  his/PRP$
+  (NODE1 Master/NNP s/VBZ degree/NN)
+  in/IN
+  1993/CD)
+(S
+  (NODE1
+    Mary Kay Zuravleff/NNP
+    taught/VBD
+    at/IN
+    Johns Hopkins University Goucher College/NNP)
+  the/DT
+  (NODE1 University/NNP of/IN Maryland/NNP)
+  and/CC
+  George Mason University/NNP)
+(S
+  (NODE1
+    Mary Kay Zuravleff/NNP
+    taught/VBD
+    at/IN
+    Johns Hopkins University Goucher College/NNP)
+  the/DT
+  University/NNP
+  of/IN
+  Maryland/NNP
+  and/CC
+  George Mason University/NNP)
+(S
+  (NODE1 Lydon/NNP was educated/VBN at/IN St Eunan/NNP)
+  s/VBZ
+  College Letterkenny County Donegal University College Galway University College Dublin/NNP
+  and/CC
+  Trinity College Dublin/NNP)
+(S
+  Lydon/NNP
+  was educated/VBN
+  at/IN
+  (NODE1
+    St Eunan/NNP
+    s/VBZ
+    College Letterkenny County Donegal University College Galway University College Dublin/NNP)
+  and/CC
+  Trinity College Dublin/NNP)
+(S
+  Berman/NNP
+  was/VBD
+  a/DT
+  published/VBN
+  author/NN
+  and/CC
+  a/DT
+  (NODE1 graduate/NN of/IN University/NNP)
+  of/IN
+  (NODE1 California Los Angeles/NNP with/IN a/DT master/NN)
+  s/VBZ
+  (NODE1 degree/NN in/IN journalism/NN)
+  from/IN
+  (NODE1 University/NNP of/IN California Berkeley/NNP))
+(S
+  Berman/NNP
+  was/VBD
+  a/DT
+  published/VBN
+  author/NN
+  and/CC
+  a/DT
+  graduate/NN
+  of/IN
+  University/NNP
+  of/IN
+  California Los Angeles/NNP
+  with/IN
+  a/DT
+  (NODE1 master/NN s/VBZ degree/NN)
+  in/IN
+  journalism/NN
+  from/IN
+  University/NNP
+  of/IN
+  California Berkeley/NNP)
+(S
+  In/IN
+  2006/CD
+  Steenburgen/NNP
+  received/VBD
+  an/DT
+  honorary/JJ
+  (NODE1 Doctor/NNP of/IN Humane Letters degree/NN)
+  from/IN
+  (NODE1 Lyon College/NNP in/IN Batesville Arkansas/NNP))
+(S
+  In/IN
+  2006/CD
+  (NODE1 Steenburgen/NNP received/VBD an/DT honorary/JJ Doctor/NNP)
+  of/IN
+  Humane Letters degree/NN
+  from/IN
+  Lyon College/NNP
+  in/IN
+  Batesville Arkansas/NNP)
+(S
+  (NODE1
+    Eleanor Cory/NNP
+    has taught/VBN
+    at/IN
+    Yale University Baruch College Manhattan School/NNP)
+  of/IN
+  Music Sarah Lawrence College Brooklyn College/NNP
+  and/CC
+  The/DT
+  (NODE1 New School/NNP for/IN Social Research/NNP)
+  and/CC
+  currently/RB
+  teaches/VBZ
+  at/IN
+  (NODE1 Mannes College/NNP of/IN Music Prep Division/NNP)
+  and/CC
+  Kingsborough Community College CUNY/NNP)
+(S
+  Eleanor Cory/NNP
+  has taught/VBN
+  at/IN
+  Yale University Baruch College Manhattan School/NNP
+  of/IN
+  Music Sarah Lawrence College Brooklyn College/NNP
+  and/CC
+  The/DT
+  New School/NNP
+  for/IN
+  Social Research/NNP
+  and/CC
+  currently/RB
+  teaches/VBZ
+  at/IN
+  Mannes College/NNP
+  of/IN
+  Music Prep Division/NNP
+  and/CC
+  Kingsborough Community College CUNY/NNP)
+(S
+  Jesse McNally/NNP
+  is/VBZ
+  a/DT
+  (NODE1 Sunnydale High student/NN played/VBD by/IN Eric Balfour/NNP))
+(S
+  (NODE1 Jesse McNally/NNP is/VBZ a/DT Sunnydale High student/NN)
+  played/VBD
+  by/IN
+  Eric Balfour/NNP)
+(S
+  Hu Huanyong/NNP
+  studied/VBD
+  literature history/NN
+  and/CC
+  (NODE1 geography/NN at/IN Nanjing Higher Normal School/NNP)
+  later/JJ
+  named/VBD
+  the/DT
+  Southeast University/NNP)
+(S
+  (NODE1 Hu Huanyong/NNP studied/VBD literature history/NN)
+  and/CC
+  geography/NN
+  at/IN
+  (NODE1
+    Nanjing Higher Normal School/NNP
+    later/JJ
+    named/VBD
+    the/DT
+    Southeast University/NNP))
+(S
+  Bell/NNP
+  attended/VBD
+  McGill University Montreal/NNP
+  and/CC
+  studied/VBD
+  under/IN
+  John William Dawson/NNP)
+(S
+  (NODE1 Bell/NNP attended/VBD McGill University Montreal/NNP)
+  and/CC
+  studied/VBD
+  under/IN
+  John William Dawson/NNP)
+(S
+  George Grossmith/NNP
+  then/RB
+  played/VBN
+  the/DT
+  (NODE1 title role/NN in/IN Paul Pry/NNP)
+  a/DT
+  (NODE1 comedy/NN by/IN Poole/NNP)
+  also/RB
+  at/IN
+  the/DT
+  (NODE1 Gallery/NNP of/IN Illustration/NNP)
+  in/IN
+  1870/CD)
+(S
+  George Grossmith/NNP
+  then/RB
+  played/VBN
+  the/DT
+  title role/NN
+  in/IN
+  Paul Pry/NNP
+  a/DT
+  comedy/NN
+  by/IN
+  Poole/NNP
+  also/RB
+  at/IN
+  the/DT
+  Gallery/NNP
+  of/IN
+  Illustration/NNP
+  in/IN
+  1870/CD)
+(S
+  Kiichiro Toyoda/NNP
+  attended/VBD
+  the/DT
+  Tokyo First Middle School Hibiya High School First High School Tokyo University/NNP
+  and/CC
+  graduated/VBD
+  from/IN
+  Nagoya Imperial University Nagoya University/NNP
+  in/IN
+  1947/CD
+  with/IN
+  a/DT
+  (NODE1 degree/NN in/IN engineering/NN))
+(S
+  (NODE1
+    Kiichiro Toyoda/NNP
+    attended/VBD
+    the/DT
+    Tokyo First Middle School Hibiya High School First High School Tokyo University/NNP)
+  and/CC
+  graduated/VBD
+  from/IN
+  Nagoya Imperial University Nagoya University/NNP
+  in/IN
+  1947/CD
+  with/IN
+  a/DT
+  degree/NN
+  in/IN
+  engineering/NN)
+(S
+  From/IN
+  1869 70/CD
+  Philippe Viard/NNP
+  attended/VBD
+  the/DT
+  (NODE1 First Vatican Council/NNP in/IN Rome/NNP)
+  presided/VBD
+  over/RP
+  by/IN
+  Pope Pius IX/NNP)
+(S
+  From/IN
+  1869 70/CD
+  (NODE1
+    Philippe Viard/NNP
+    attended/VBD
+    the/DT
+    First Vatican Council/NNP)
+  in/IN
+  Rome/NNP
+  presided/VBD
+  over/RP
+  by/IN
+  Pope Pius IX/NNP)
+(S
+  from/IN
+  the/DT
+  (NODE1 University/NNP of/IN California Berkeley/NNP)
+  and/CC
+  his/PRP$
+  J D/NNP)
+(S
+  from/IN
+  the/DT
+  University/NNP
+  of/IN
+  California Berkeley/NNP
+  and/CC
+  his/PRP$
+  J D/NNP)
+(S
+  Robert/NNP
+  A/DT
+  Taft/NNP
+  later/JJ
+  attended/VBD
+  the/DT
+  (NODE1 Woodrow Wilson School/NNP of/IN Public/NNP)
+  and/CC
+  (NODE1
+    International Affairs/NNP
+    at/IN
+    Princeton University receiving/NN)
+  an/DT
+  M/NNP
+  A/DT
+  (NODE1 again/NN in/IN government/NN)
+  in/IN
+  1967/CD)
+(S
+  Robert/NNP
+  A/DT
+  (NODE1
+    Taft/NNP
+    later/JJ
+    attended/VBD
+    the/DT
+    Woodrow Wilson School/NNP)
+  of/IN
+  Public/NNP
+  and/CC
+  International Affairs/NNP
+  at/IN
+  Princeton University receiving/NN
+  an/DT
+  M/NNP
+  A/DT
+  again/NN
+  in/IN
+  government/NN
+  in/IN
+  1967/CD)
+(S
+  (NODE1 Yvonne Jacquette/NNP taught/VBD at/IN Moore College/NNP)
+  of/IN
+  Art/NNP
+  and/CC
+  was/VBD
+  a/DT
+  (NODE1 visiting artist/NN at/IN the/DT University/NNP)
+  of/IN
+  Pennsylvania/NNP
+  from/IN
+  1972/CD
+  to/TO
+  1976/CD)
+(S
+  (NODE1 Yvonne Jacquette/NNP taught/VBD at/IN Moore College/NNP)
+  of/IN
+  Art/NNP
+  and/CC
+  was/VBD
+  a/DT
+  visiting artist/NN
+  at/IN
+  the/DT
+  University/NNP
+  of/IN
+  Pennsylvania/NNP
+  from/IN
+  1972/CD
+  to/TO
+  1976/CD)
+(S
+  Susan Davies/NNP
+  received/VBD
+  a/DT
+  Bachelor Arts/NNP
+  and/CC
+  a/DT
+  Diploma Education/NNP
+  in/IN
+  1976/CD
+  from/IN
+  Latrobe University/NNP)
+(S
+  (NODE1 Susan Davies/NNP received/VBD a/DT Bachelor Arts/NNP)
+  and/CC
+  a/DT
+  Diploma Education/NNP
+  in/IN
+  1976/CD
+  from/IN
+  Latrobe University/NNP)
+[-1]
+Relation not found
+---------------notree----------------------------
+(S
+  Phil Whelan/NNP
+  holds/VBZ
+  a/DT
+  (NODE1 degree/NN from/IN the/DT University East Anglia/NNP))
+(S
+  (NODE1 Phil Whelan/NNP holds/VBZ a/DT degree/NN)
+  from/IN
+  the/DT
+  University East Anglia/NNP)
+[ 1  1 -1]
+SENTENCE  None
+NNP PHIL WHELAN MEMBER
+VBZ HOLDS None
+DT A None
+NN DEGREE None
+NN DEGREE None
+IN FROM None
+DT THE None
+NNP UNIVERSITY EAST ANGLIA AFFILATION
+---------------treee-----------------------------
+(S
+  (NODE1
+    Robert Webb/NNP
+    was educated/VBN
+    at/IN
+    Queen Elizabeth Grammar School/NNP)
+  in/IN
+  Horncastle/NNP)
+(S
+  Robert Webb/NNP
+  was educated/VBN
+  at/IN
+  Queen Elizabeth Grammar School/NNP
+  in/IN
+  Horncastle/NNP)
+[-1 -1 -1]
+Relation not found
+---------------notree----------------------------
+(S
+  (NODE1
+    Thomas Fanshawe/NNP
+    was educated/VBN
+    at/IN
+    Queens College Cambridge/NNP))
+(S
+  Thomas Fanshawe/NNP
+  was educated/VBN
+  at/IN
+  Queens College Cambridge/NNP)
+[-1 -1 -1]
+Relation not found
+---------------notree----------------------------
+(S
+  Hall/NNP
+  went/VBD
+  on/IN
+  to/TO
+  medical/JJ
+  (NODE1 school/NN at/IN Rush Medical College/NNP)
+  in/IN
+  Chicago Illinois/NNP
+  where/WRB
+  Durward Gorham Hall/NNP
+  received/VBD
+  his/PRP$
+  M D/NNP)
+(S
+  Hall/NNP
+  went/VBD
+  on/IN
+  to/TO
+  medical/JJ
+  school/NN
+  at/IN
+  Rush Medical College/NNP
+  in/IN
+  Chicago Illinois/NNP
+  where/WRB
+  Durward Gorham Hall/NNP
+  received/VBD
+  his/PRP$
+  M D/NNP)
+[-1 -1 -1]
+Relation not found
+---------------notree----------------------------
+(S
+  (NODE1 Reid/NNP was born/VBN in/IN New York New York/NNP)
+  and/CC
+  (NODE1
+    Ogden R Reid/NNP
+    graduated/VBD
+    from/IN
+    Deerfield Academy/NNP)
+  and/CC
+  Yale University/NNP)
+(S
+  Reid/NNP
+  was born/VBN
+  in/IN
+  New York New York/NNP
+  and/CC
+  (NODE1
+    Ogden R Reid/NNP
+    graduated/VBD
+    from/IN
+    Deerfield Academy/NNP)
+  and/CC
+  Yale University/NNP)
+[1 1 1]
+SENTENCE  None
+NNP OGDEN R REID MEMBER
+VBD GRADUATED None
+IN FROM None
+NNP DEERFIELD ACADEMY None
+NNP OGDEN R REID None
+VBD GRADUATED None
+IN FROM None
+NNP DEERFIELD ACADEMY AFFILATION
+---------------treee-----------------------------
+(S
+  George R Milner/NNP
+  received/VBD
+  his/PRP$
+  MA/NNP
+  in/IN
+  1976/CD
+  from/IN
+  Northwestern University/NNP
+  and/CC
+  PhD/NNP
+  in/IN
+  1982/CD
+  dissertation/NN
+  entitled/VBD
+  (NODE1
+    Measuring Prehistoric Levels Health A Study Mississippian Period Skeletal Remains/NNP
+    from/IN
+    the/DT
+    American Bottom Illinois/NNP))
+(S
+  George R Milner/NNP
+  received/VBD
+  his/PRP$
+  MA/NNP
+  in/IN
+  1976/CD
+  from/IN
+  Northwestern University/NNP
+  and/CC
+  PhD/NNP
+  in/IN
+  1982/CD
+  (NODE1
+    dissertation/NN
+    entitled/VBD
+    Measuring Prehistoric Levels Health A Study Mississippian Period Skeletal Remains/NNP)
+  from/IN
+  the/DT
+  American Bottom Illinois/NNP)
+[ 1  1 -1]
+SENTENCE  None
+NN DISSERTATION MEMBER
+VBD ENTITLED None
+NNP MEASURING PREHISTORIC LEVELS HEALTH A STUDY MISSISSIPPIAN PERIOD SKELETAL REMAINS None
+NNP MEASURING PREHISTORIC LEVELS HEALTH A STUDY MISSISSIPPIAN PERIOD SKELETAL REMAINS None
+IN FROM None
+DT THE None
+NNP AMERICAN BOTTOM ILLINOIS AFFILATION
+---------------treee-----------------------------
+(S
+  Doug Swift/NNP
+  is/VBZ
+  a/DT
+  (NODE1 graduate/NN from/IN University Albama/NNP))
+(S
+  (NODE1 Doug Swift/NNP is/VBZ a/DT graduate/NN)
+  from/IN
+  University Albama/NNP)
+[ 1  1 -1]
+SENTENCE  None
+NNP DOUG SWIFT MEMBER
+VBZ IS None
+DT A None
+NN GRADUATE None
+NN GRADUATE None
+IN FROM None
+NNP UNIVERSITY ALBAMA AFFILATION
+---------------treee-----------------------------
+(S
+  Leon Bekaert/NNP
+  holds/VBZ
+  a/DT
+  (NODE1 degree/NN in/IN Applied Economics/NNP)
+  from/IN
+  the/DT
+  Katholieke Universiteit Leuven/NNP
+  1983/CD
+  and/CC
+  obtained/VBD
+  an/DT
+  (NODE1 MBA/NNP at/IN the/DT IMI/NNP)
+  in/IN
+  Geneva/NNP
+  in/IN
+  1987/CD)
+(S
+  (NODE1 Leon Bekaert/NNP holds/VBZ a/DT degree/NN)
+  in/IN
+  Applied Economics/NNP
+  from/IN
+  the/DT
+  Katholieke Universiteit Leuven/NNP
+  1983/CD
+  and/CC
+  obtained/VBD
+  an/DT
+  MBA/NNP
+  at/IN
+  the/DT
+  IMI/NNP
+  in/IN
+  Geneva/NNP
+  in/IN
+  1987/CD)
+[ 1  1 -1]
+SENTENCE  None
+NNP LEON BEKAERT MEMBER
+VBZ HOLDS None
+DT A None
+NN DEGREE None
+NNP MBA None
+IN AT None
+DT THE None
+NNP IMI AFFILATION
+---------------treee-----------------------------
+(S
+  (NODE1
+    Carolyn Steinberg/NNP
+    graduated/VBD
+    from/IN
+    North Texas State University/NNP)
+  with/IN
+  a/DT
+  Bachelor Music degree/NN
+  in/IN
+  music/JJ
+  theory/NN
+  in/IN
+  1978/CD)
+(S
+  (NODE1
+    Carolyn Steinberg/NNP
+    graduated/VBD
+    from/IN
+    North Texas State University/NNP)
+  with/IN
+  a/DT
+  Bachelor Music degree/NN
+  in/IN
+  music/JJ
+  theory/NN
+  in/IN
+  1978/CD)
+[1 1 1]
+SENTENCE  None
+NNP CAROLYN STEINBERG MEMBER
+VBD GRADUATED None
+IN FROM None
+NNP NORTH TEXAS STATE UNIVERSITY None
+NNP CAROLYN STEINBERG None
+VBD GRADUATED None
+IN FROM None
+NNP NORTH TEXAS STATE UNIVERSITY AFFILATION
+---------------treee-----------------------------
+(S
+  Behr/NNP
+  is/VBZ
+  a/DT
+  (NODE1 graduate/NN of/IN The/DT Juilliard School/NNP)
+  and/CC
+  has performed/VBN
+  throughout/IN
+  the/DT
+  U S/NNP)
+(S
+  (NODE1 Behr/NNP is/VBZ a/DT graduate/NN)
+  of/IN
+  The/DT
+  Juilliard School/NNP
+  and/CC
+  has performed/VBN
+  throughout/IN
+  the/DT
+  U S/NNP)
+[ 1  1 -1]
+SENTENCE  None
+NNP BEHR MEMBER
+VBZ IS None
+DT A None
+NN GRADUATE None
+NN GRADUATE None
+IN OF None
+DT THE None
+NNP JUILLIARD SCHOOL AFFILATION
+---------------treee-----------------------------
+(S
+  (NODE1
+    Ralph F Lozier/NNP
+    graduated/VBD
+    from/IN
+    the/DT
+    Carrollton High School/NNP)
+  in/IN
+  1883/CD
+  and/CC
+  engaged/VBD
+  in/IN
+  teaching/NN
+  for/IN
+  several/JJ
+  years/NNS
+  before/IN
+  studying/VBG
+  law/NN)
+(S
+  (NODE1
+    Ralph F Lozier/NNP
+    graduated/VBD
+    from/IN
+    the/DT
+    Carrollton High School/NNP)
+  in/IN
+  1883/CD
+  and/CC
+  engaged/VBD
+  in/IN
+  teaching/NN
+  for/IN
+  several/JJ
+  years/NNS
+  before/IN
+  studying/VBG
+  law/NN)
+[1 1 1]
+SENTENCE  None
+NNP RALPH F LOZIER MEMBER
+VBD GRADUATED None
+IN FROM None
+DT THE None
+NNP CARROLLTON HIGH SCHOOL None
+NNP RALPH F LOZIER None
+VBD GRADUATED None
+IN FROM None
+DT THE None
+NNP CARROLLTON HIGH SCHOOL AFFILATION
+---------------treee-----------------------------
+(S
+  John Smith/NNP
+  is/VBZ
+  the/DT
+  (NODE1 chief scientist/NN of/IN the/DT Hardcom Corporation/NNP))
+(S
+  (NODE1 John Smith/NNP is/VBZ the/DT chief scientist/NN)
+  of/IN
+  the/DT
+  Hardcom Corporation/NNP)
+[ 1  1 -1]
+SENTENCE  None
+NNP JOHN SMITH MEMBER
+VBZ IS None
+DT THE None
+NN CHIEF SCIENTIST None
+NN CHIEF SCIENTIST None
+IN OF None
+DT THE None
+NNP HARDCOM CORPORATION AFFILATION
+---------------treee-----------------------------
+(S
+  In/IN
+  1984/CD
+  Phaedon Avouris/NNP
+  became/VBD
+  manager Chemical Physics/NNP
+  and/CC
+  in/IN
+  2004/CD
+  Phaedon Avouris/NNP
+  was elected/VBN
+  an/DT
+  IBM Fellow/NNP)
+(S
+  In/IN
+  1984/CD
+  (NODE1 Phaedon Avouris/NNP became/VBD manager Chemical Physics/NNP)
+  and/CC
+  in/IN
+  2004/CD
+  Phaedon Avouris/NNP
+  was elected/VBN
+  an/DT
+  IBM Fellow/NNP)
+[-1]
+Relation not found
+---------------notree----------------------------
+(S
+  (NODE1 Stromme/NNP graduated/VBD from/IN Luther College Iowa/NNP)
+  and/CC
+  attended/VBD
+  Concordia Theological Seminary/NNP)
+(S
+  (NODE1 Stromme/NNP graduated/VBD from/IN Luther College Iowa/NNP)
+  and/CC
+  attended/VBD
+  Concordia Theological Seminary/NNP)
+[1 1 1]
+SENTENCE  None
+NNP STROMME MEMBER
+VBD GRADUATED None
+IN FROM None
+NNP LUTHER COLLEGE IOWA None
+NNP STROMME None
+VBD GRADUATED None
+IN FROM None
+NNP LUTHER COLLEGE IOWA AFFILATION
+---------------treee-----------------------------
+(S
+  Vugar Bayramov/NNP
+  is/VBZ
+  an/DT
+  alumnus Washington University USA/NNP)
+(S
+  (NODE1
+    Vugar Bayramov/NNP
+    is/VBZ
+    an/DT
+    alumnus Washington University USA/NNP))
+[-1]
+Relation not found
+---------------notree----------------------------
+(S
+  Chernoviz/NNP
+  who/WP
+  had initiated/VBN
+  his/PRP$
+  medical/JJ
+  (NODE1 studies/NNS at/IN the/DT Uniwersytet Warszawski/NNP)
+  completed/VBD
+  (NODE1 them/PRP at/IN the/DT University Montpellier/NNP)
+  in/IN
+  1838/CD)
+(S
+  Chernoviz/NNP
+  who/WP
+  had initiated/VBN
+  his/PRP$
+  medical/JJ
+  studies/NNS
+  at/IN
+  the/DT
+  Uniwersytet Warszawski/NNP
+  completed/VBD
+  them/PRP
+  at/IN
+  the/DT
+  University Montpellier/NNP
+  in/IN
+  1838/CD)
+[ 1  1 -1]
+PRP THEM MEMBER
+PRP THEM None
+IN AT None
+DT THE None
+NNP UNIVERSITY MONTPELLIER AFFILATION
+---------------treee-----------------------------
+(S
+  (NODE1
+    Kevin Baron/NNP
+    graduated/VBD
+    from/IN
+    the/DT
+    University Richmond/NNP)
+  in/IN
+  1997/CD
+  with/IN
+  a/DT
+  B A/NNP)
+(S
+  (NODE1
+    Kevin Baron/NNP
+    graduated/VBD
+    from/IN
+    the/DT
+    University Richmond/NNP)
+  in/IN
+  1997/CD
+  with/IN
+  a/DT
+  B A/NNP)
+[1 1 1]
+SENTENCE  None
+NNP KEVIN BARON MEMBER
+VBD GRADUATED None
+IN FROM None
+DT THE None
+NNP UNIVERSITY RICHMOND None
+NNP KEVIN BARON None
+VBD GRADUATED None
+IN FROM None
+DT THE None
+NNP UNIVERSITY RICHMOND AFFILATION
+---------------treee-----------------------------
+(S
+  A/DT
+  descendant Richard Harris Barham/NNP
+  and/CC
+  (NODE1
+    Edward Augustus Bond Guy Walters/NNP
+    was educated/VBN
+    at/IN
+    Cheam School Eton College Westfield College University London/NNP)
+  now/RB
+  part Queen Mary University London/NNP
+  and/CC
+  is/VBZ
+  studying/VBG
+  for/IN
+  a/DT
+  (NODE1 PhD/NNP in/IN history/NN)
+  at/IN
+  Newcastle/NNP)
+(S
+  A/DT
+  descendant Richard Harris Barham/NNP
+  and/CC
+  Edward Augustus Bond Guy Walters/NNP
+  was educated/VBN
+  at/IN
+  Cheam School Eton College Westfield College University London/NNP
+  now/RB
+  part Queen Mary University London/NNP
+  and/CC
+  is/VBZ
+  studying/VBG
+  for/IN
+  a/DT
+  PhD/NNP
+  in/IN
+  history/NN
+  at/IN
+  Newcastle/NNP)
+[ 1  1 -1]
+NNP PHD MEMBER
+NNP PHD None
+IN IN None
+NN HISTORY AFFILATION
+---------------treee-----------------------------
+(S
+  As/IN
+  a/DT
+  teenager Keith Raywood/NNP
+  attended/VBD
+  the/DT
+  Dwight School/NNP
+  and/CC
+  studied/VBD
+  painting/VBG
+  at/IN
+  The/DT
+  (NODE1 Art Students League New York/NNP with/IN Issac Soyer/NNP))
+(S
+  As/IN
+  a/DT
+  (NODE1
+    teenager Keith Raywood/NNP
+    attended/VBD
+    the/DT
+    Dwight School/NNP)
+  and/CC
+  studied/VBD
+  painting/VBG
+  at/IN
+  The/DT
+  Art Students League New York/NNP
+  with/IN
+  Issac Soyer/NNP)
+[ 1  1 -1]
+SENTENCE  None
+NNP TEENAGER KEITH RAYWOOD MEMBER
+VBD ATTENDED None
+DT THE None
+NNP DWIGHT SCHOOL None
+NNP ART STUDENTS LEAGUE NEW YORK None
+IN WITH None
+NNP ISSAC SOYER AFFILATION
+---------------treee-----------------------------
+(S
+  Karen Tanaka/NNP
+  taught/VBD
+  (NODE1
+    composition/NN
+    at/IN
+    the/DT
+    University California Santa Barbara/NNP)
+  and/CC
+  the/DT
+  University Michigan Ann Arbor/NNP)
+(S
+  (NODE1 Karen Tanaka/NNP taught/VBD composition/NN)
+  at/IN
+  the/DT
+  University California Santa Barbara/NNP
+  and/CC
+  the/DT
+  University Michigan Ann Arbor/NNP)
+[ 1  1 -1]
+SENTENCE  None
+NNP KAREN TANAKA MEMBER
+VBD TAUGHT None
+NN COMPOSITION None
+NN COMPOSITION None
+IN AT None
+DT THE None
+NNP UNIVERSITY CALIFORNIA SANTA BARBARA AFFILATION
+---------------treee-----------------------------
+(S
+  Cain Hope Felder/NNP
+  is/VBZ
+  the/DT
+  father/NN
+  one/CD
+  daughter Miss Akidah Felder/NNP
+  a/DT
+  graduate Spelman College/NNP
+  and/CC
+  dual/JJ
+  (NODE1 Master s student/NN at/IN Johns Hopkins University/NNP)
+  in/IN
+  Baltimore Maryland/NNP)
+(S
+  (NODE1 Cain Hope Felder/NNP is/VBZ the/DT father/NN)
+  one/CD
+  daughter Miss Akidah Felder/NNP
+  a/DT
+  graduate Spelman College/NNP
+  and/CC
+  dual/JJ
+  Master s student/NN
+  at/IN
+  Johns Hopkins University/NNP
+  in/IN
+  Baltimore Maryland/NNP)
+[-1 -1 -1]
+Relation not found
+---------------notree----------------------------
+(S
+  Alvin Kraenzlein/NNP
+  took/VBD
+  another/DT
+  second/JJ
+  (NODE1 place/NN behind/IN Kraenzlein/NNP)
+  in/IN
+  the/DT
+  60/CD
+  m/NN
+  before/IN
+  entering/VBG
+  the/DT
+  400/CD
+  m hurdles/NNS)
+(S
+  (NODE1 Alvin Kraenzlein/NNP took/VBD another/DT second/JJ place/NN)
+  behind/IN
+  Kraenzlein/NNP
+  in/IN
+  the/DT
+  60/CD
+  m/NN
+  before/IN
+  entering/VBG
+  the/DT
+  400/CD
+  m hurdles/NNS)
+[ 1  1 -1]
+SENTENCE  None
+NNP ALVIN KRAENZLEIN MEMBER
+VBD TOOK None
+DT ANOTHER None
+JJ SECOND None
+NN PLACE None
+NN PLACE None
+IN BEHIND None
+NNP KRAENZLEIN AFFILATION
+---------------treee-----------------------------
+(S
+  Rounak/NNP
+  is/VBZ
+  the/DT
+  (NODE1 friend/NN of/IN an/DT IIT Kanpur graduate/NN))
+(S
+  (NODE1 Rounak/NNP is/VBZ the/DT friend/NN)
+  of/IN
+  an/DT
+  IIT Kanpur graduate/NN)
+[ 1  1 -1]
+SENTENCE  None
+NNP ROUNAK MEMBER
+VBZ IS None
+DT THE None
+NN FRIEND None
+NN FRIEND None
+IN OF None
+DT AN None
+NN IIT KANPUR GRADUATE AFFILATION
+---------------treee-----------------------------
+(S I/PRP like/VBP to/TO eat/VB food/NN)
+(S I/PRP like/VBP to/TO eat/VB food/NN)
+[-1]
+Relation not found
+---------------notree----------------------------

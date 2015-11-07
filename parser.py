@@ -3,9 +3,13 @@ import nltk
 from nltk.tokenize import word_tokenize
 from nltk.tokenize import RegexpTokenizer
 import numpy as np
+from sklearn import svm
+import numpy as np
+from nltk.stem.porter import *
 
 # 
 lambda1= 0.5
+NN_list=['NN','NNS','NNP','NNPS']
 class node(object):
 	def __init__(self, Type, Text = "",Role=None,child=None,parent=None):
 		self.Type = Type.upper()
@@ -62,7 +66,7 @@ def k(R1,R2):
 
 def K(R1,R2):
 	if t(R1,R2)==0:
-		print "Type and Role dont match"
+		#print "Type and Role dont match"
 		return 0
 	else:
 		return k(R1,R2)+Kc(R1,R2)
@@ -97,7 +101,7 @@ def L(R1,R2):
 			temp_col=temp_col-1
 			temp_row=temp_row-1
 		row=row-1
-	print L_Matrix
+	#print L_Matrix
 	return L_Matrix
 
 def C(R1,R2,L_Matrix):
@@ -138,32 +142,96 @@ def Kc(R1,R2):
 	C_Matrix=C(R1,R2,L_Matrix)
 	R1_size=R1.size
 	R2_size=R2.size
-	print "R1,",(R1_size)
-	print "R2,",(R2_size)
+	#print "R1,",(R1_size)
+	#print "R2,",(R2_size)
 	Kcc=0
 	for i in range(0,R1_size+1):
 		for j in range(0,R2_size+1):
 			Kcc=Kcc+C_Matrix[i][j]
 	return Kcc
 
+
+def compare(tag1,tag2):
+	NN_list=['NN','NNS','NNP','NNPS']
+	VB_list=['VB','VBS','VBZ','VBD','VBN']
+	if tag1 in NN_list and tag2 in NN_list:
+		return True
+	if tag1 in VB_list and tag2 in VB_list:
+		return True
+
+
+import pickle
+test=[]
 def data_preprocess():
 	return_list=[]
-	with open('input.txt') as f:
-		for line  in f:
-			tokenizer = RegexpTokenizer(r'\w+')
-			line=tokenizer.tokenize(line)
-			tagged_line=nltk.pos_tag(line)
-			final_tagged_line=[]
-			i=0
-			while i < len(tagged_line):
-				substr=tagged_line[i][0]
-				while i<len(tagged_line)-1 and tagged_line[i][1]==tagged_line[i+1][1]:
-					substr=substr+" "+tagged_line[i+1][0]
-					i=i+1
-				final_tagged_line.append((substr,tagged_line[i][1]))
+	label_list=[]
+	favorite_color = pickle.load( open( "data_positive.pickle", "rb" ) )
+	#with open('input.txt') as f:
+	for i in range(0,min(len(favorite_color),50)):
+		line=favorite_color[i]['sentence']
+		try:
+			line = line.encode("ascii")
+			test.append(favorite_color[i]['organisation'].encode("ascii"))
+		except:
+			continue
+		tokenizer = RegexpTokenizer(r'\w+')
+		line2=line
+		line=tokenizer.tokenize(line2)
+		tagged_line=nltk.pos_tag(line)
+		final_tagged_line=[]
+		i=0
+		while i < len(tagged_line):
+			substr=tagged_line[i][0]
+			while i<len(tagged_line)-1 and ((tagged_line[i][1]==tagged_line[i+1][1]) or compare(tagged_line[i][1],tagged_line[i+1][1])):
+				substr=substr+" "+tagged_line[i+1][0]
 				i=i+1
-			return_list.append(final_tagged_line)
-	return return_list
+			final_tagged_line.append((substr,tagged_line[i][1]))
+			i=i+1
+		return_list.append(final_tagged_line)
+		label_list.append(1)
+	favorite_color = pickle.load( open( "data_negative.pickle", "rb" ) )
+	#with open('input.txt') as f:
+	for i in range(0,min(len(favorite_color),50)):
+		line=favorite_color[i]['sentence']
+		try:
+			line = line.encode("ascii")
+			test.append(favorite_color[i]['organisation'].encode("ascii"))
+		except:
+			continue
+		tokenizer = RegexpTokenizer(r'\w+')
+		line2=line
+		line=tokenizer.tokenize(line2)
+		tagged_line=nltk.pos_tag(line)
+		final_tagged_line=[]
+		i=0
+		while i < len(tagged_line):
+			substr=tagged_line[i][0]
+			while i<len(tagged_line)-1 and ((tagged_line[i][1]==tagged_line[i+1][1]) or compare(tagged_line[i][1],tagged_line[i+1][1])):
+				substr=substr+" "+tagged_line[i+1][0]
+				i=i+1
+			final_tagged_line.append((substr,tagged_line[i][1]))
+			i=i+1
+		return_list.append(final_tagged_line)
+		label_list.append(-1)
+	# with open('test.txt') as f:
+	# 	for line in f:
+	# 		line=line.strip()
+	# 		tokenizer = RegexpTokenizer(r'\w+')
+	# 		line2=line.replace("of","")
+	# 		line=tokenizer.tokenize(line2)
+	# 		tagged_line=nltk.pos_tag(line)
+	# 		final_tagged_line=[]
+	# 		i=0
+	# 		while i < len(tagged_line):
+	# 			substr=tagged_line[i][0]
+	# 			while i<len(tagged_line)-1 and ((tagged_line[i][1]==tagged_line[i+1][1]) or compare(tagged_line[i][1],tagged_line[i+1][1])):
+	# 				substr=substr+" "+tagged_line[i+1][0]
+	# 				i=i+1
+	# 			final_tagged_line.append((substr,tagged_line[i][1]))
+	# 			i=i+1
+	# 		return_list.append(final_tagged_line)
+
+	return (return_list,label_list)
 
 
 def print_iterate(root):
@@ -176,93 +244,115 @@ def print_iterate(root):
 
 
 
-
-if __name__=="__main__":
-	tagged_sentences = data_preprocess()
-	print tagged_sentences
+def tree_creation(tagged_sentences,label_list=[]):
 	train=[]
+	train_label=[]
 	for i in range(0,len(tagged_sentences)):
-		
 		tagged=tagged_sentences[i]
-		grammar = "NODE1: {(<NN>|<NNP>)+<IN><DT>?(<NN>|<NNP>)+}"  
-		cp = nltk.RegexpParser(grammar)                               
+		#print tagged
+		grammar = "NODE1: {(<NN>|<NNP>|<NNS>|<PRP>)+<RB>?(<VBD>|<VBN>|<VBZ>|<VBG>|<VB>)?<IN><DT>?(<NN>|<NNP>)+}"  
+		cp = nltk.RegexpParser(grammar)
 		result1 = cp.parse(tagged)
 		print result1
-		grammar = "NODE1: {(<DT><VBZ>)?(<NNP>|<NN>)+(<VBD>|<VBZ>|<VBG>|<VB>)+<IN>?<DT>?<JJ>?(<NN>|<NNP>)+}"  
+		grammar = "NODE1: {(<DT><VBZ>)?(<NNP>|<NN>|<NNS>|<NNPS>)+(<JJ>)?(<VBD>|<VBZ>|<VBG>|<VB>)+<IN>?<DT>?<JJ>?(<NN>|<NNP>)+}"  
 		cp = nltk.RegexpParser(grammar)
 		result2 = cp.parse(tagged)
 		print result2
+		try:
+			root_node=[]
+			for sub in result1.subtrees():
+				if sub.label() == "NODE1":
+					root_node.append(sub)
+			root_node=root_node[len(root_node)-1]
+			nodes=[]
+			relation=[]
+			root=node(root_node[0][1],root_node[0][0],"Member")
+			for j in range(0,len(root_node)):
+				element=root_node[j] 
+				nodes.append(node(element[1],element[0],None,None,root))
+			nodes[len(nodes)-1].Role="AFFILATION"
+			root.child=nodes
+			root.size=len(nodes)
+			train.append(root)
+			train_label.append(label_list[i])
+		except:
+			pass
 
+		try:
+			root_node=[]
+			for sub in result1.subtrees():
+				if sub.label() == "NODE1":
+					root_node.append(sub)
+			root_node=root_node[len(root_node)-1]
+			nodes=[]
+			relation=[]
+			root=node(root_node[0][1],root_node[0][0])
+			for j in range(0,len(root_node)):
+				element=root_node[j]
+				nodes.append(node(element[1],element[0],None,None,root))
+			nodes[len(nodes)-1].Role="AFFILATION"
+			nodes[0].Role="MEMBER"
+			root.child=nodes
+			root.size=len(nodes)                                                                                                                           
+			train.append(root)
+			train_label.append(label_list[i])
+		except:
+			pass
 
-		root_node=[]
-		for sub in result1.subtrees():
-			if sub.label() == "NODE1":
-				root_node.append(sub)
-		root_node=root_node[0]
-		nodes=[]
-		relation=[]
-		root=node(root_node[0][1],root_node[0][0],"Member")
-		for i in range(0,len(root_node)):
-			element=root_node[i]
-			nodes.append(node(element[1],element[0],None,None,root))
-		nodes[len(nodes)-1].Role="AFFILATION"
-		root.child=nodes
-		root.size=len(nodes)
+		try:
+			root_node=[]
+			for sub in result1.subtrees():
+				if sub.label() == "NODE1":
+					root_node.append(sub)
+			root_node=root_node[len(root_node)-1]
+			nodes=[]     
+			relation=[]
+			for j in range(0,len(root_node)):
+				element=root_node[j]
+				nodes.append(node(element[1],element[0]))
+			nodes[len(nodes)-1].Role="AFFILATION"
+		except:
+			pass
+		try:
+			root_node=[]
+			for sub in result2.subtrees():
+				if sub.label() == "NODE1":
+					root_node.append(sub)
+			root_node=root_node[0]
+			nodes2=[]
+			relation=[]
+			for j in range(0,len(root_node)):
+				element=root_node[j]
+				nodes2.append(node(element[1],element[0]))
+			nodes2[0].Role="MEMBER"	
+			nodes2[len(nodes2)-1].child=nodes
+			for j in range(0,len(nodes)):
+				nodes[j].parent=nodes2[len(nodes2)-1]
+		except:
+			pass
+		try:
+			root=node("sentence")
+			root.child=nodes2
+			root.size=len(nodes2)
+			for j in range(0,len(nodes2)):
+				nodes2[j].parent=root
+		except:
+			pass
 		train.append(root)
-		
+		try:
+			train_label.append(label_list[i])
+		except:
+			pass
+	return train,train_label
 
-
-		root_node=[]
-		for sub in result1.subtrees():
-			if sub.label() == "NODE1":
-				root_node.append(sub)
-		root_node=root_node[0]
-		nodes=[]
-		relation=[]
-		root=node(root_node[0][1],root_node[0][0])
-		for i in range(0,len(root_node)):
-			element=root_node[i]
-			nodes.append(node(element[1],element[0],None,None,root))
-		nodes[len(nodes)-1].Role="AFFILATION"
-		nodes[0].Role="MEMBER"
-		root.child=nodes
-		root.size=len(nodes)                                                                                                                           
-		train.append(root)
-
-
-
-		root_node=[]
-		for sub in result1.subtrees():
-			if sub.label() == "NODE1":
-				root_node.append(sub)
-		root_node=root_node[0]
-		nodes=[]     
-		relation=[]
-		for i in range(0,len(root_node)):
-			element=root_node[i]
-			nodes.append(node(element[1],element[0]))
-		nodes[len(nodes)-1].Role="AFFILATION"
-		root_node=[]
-		for sub in result2.subtrees():
-			if sub.label() == "NODE1":
-				root_node.append(sub)
-		root_node=root_node[0]
-		nodes2=[]
-		relation=[]
-		for i in range(0,len(root_node)):
-			element=root_node[i]
-			nodes2.append(node(element[1],element[0]))
-		nodes2[0].Role="MEMBER"	
-		nodes2[len(nodes2)-1].child=nodes
-		for i in range(0,len(nodes)):
-			nodes[i].parent=nodes2[len(nodes2)-1]
-
-		root=node("sentence")
-		root.child=nodes2
-		root.size=len(nodes2)
-		for i in range(0,len(nodes2)):
-			nodes2[i].parent=root
-		train.append(root)
+if __name__=="__main__":
+	tagged_sentences,label_list = data_preprocess()
+	print "data_preprocess has been done"
+	
+	#print tagged_sentences
+	train=[]
+	train_label=[]
+	train,train_label=tree_creation(tagged_sentences,label_list)
 	Kernel=np.zeros((len(train),len(train)))
 	Kernel_normalised=np.zeros((len(train),len(train)))
 	for i in range(0,len(train)):
@@ -271,13 +361,67 @@ if __name__=="__main__":
 	for i in range(0,len(train)):
 	 	for j in range(0,len(train)):
 			Kernel_normalised[i][j]=Kernel[i][j]/math.sqrt(((float)(Kernel[i][i])*Kernel[j][j]))
-	print Kernel_normalised                   
-	# print_iterate(train[2])
-	# print_iterate(train[5])
-	# print K(train[5],train[5])
-	# for i in range(0,len(t rain)):
-	# 	print_iterate(train[i])      
+	final_tagged_l=[]
+	clf = svm.SVC(kernel='precomputed')
+	clf.fit(Kernel_normalised,train_label)
+			
+	with open('test.txt') as f:
+		
+		for line in f:
+			final_tagged_l=[]
+			line=line.strip()
+			temp=line
+			tokenizer = RegexpTokenizer(r'\w+')
+			#line2=line.replace("of","")
+			line2=line
+			line=tokenizer.tokenize(line2)
+			tagged_line=nltk.pos_tag(line)
+			for jdx in range(0,len(tagged_line)-1):
+				if tagged_line[jdx][0]=='of' and tagged_line[jdx+1][1] in NN_list and tagged_line[jdx-1][1] in NN_list:
+					line2=temp.replace("of","")
+					line=tokenizer.tokenize(line2)
+			tagged_line=nltk.pos_tag(line)
+			i=0
+			final_tagged_line=[]
+			while i < len(tagged_line):
+				substr=tagged_line[i][0]
+				while i<len(tagged_line)-1 and ((tagged_line[i][1]==tagged_line[i+1][1]) or compare(tagged_line[i][1],tagged_line[i+1][1])):
+					substr=substr+" "+tagged_line[i+1][0]
+					i=i+1
+				final_tagged_line.append((substr,tagged_line[i][1]))
+				i=i+1
+			final_tagged_l.append(final_tagged_line)
+			test,test_label=tree_creation(final_tagged_l)
 
+			# for jdx in range(0,len(test)):
+			# 	print_iterate(test[jdx])
+			# print K(test[2],test[2])
+			Kernel_test=np.zeros((len(test),len(train)))
+			for i in range(0,len(test)):
+			 	for j in range(0,len(train)):
+					Kernel_test[i][j]=K(test[i],train[j])
+			
+	# for i in range(0,len(test)):
+	#  	for j in range(0,len(train)):
+	# 		Kernel_test[i][j]=Kernel[i][j]/math.sqrt(((float)(Kernel[i][i])*Kernel[j][j]))
+	# print len(train_label),len(Kernel_normalised),len(Kernel_normalised[0])
+	# print train_label
+			y_pred = clf.predict(Kernel_test)
+			print y_pred
+			res=sum(y_pred)
+			if res >0:
+				sent=test[len(test)-1]
+				if not sent.child:
+					try:
+						print_iterate(test[0])
+					except:
+						print_iterate(sent)
+				else:
+					print_iterate(test[len(test)-1])
+				print "---------------treee-----------------------------"
+			else:
+				print "Relation not found"
+				print "---------------notree----------------------------"
 	# 	nodes=[]
 	# 	child_nodes=[]
 	# 	sentence=tagged_sentences[i]
